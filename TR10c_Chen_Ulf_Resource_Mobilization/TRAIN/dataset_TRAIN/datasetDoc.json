@@ -1,0 +1,105 @@
+{
+  "about": {
+    "datasetID": "TR10c_Chen_Ulf_Resource_Mobilization",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true,
+    "digest": "d57dc7939d524a79f946fb73b070a79994f4518152d884d70c9586b8512cf827",
+    "datasetName": "TR10c_Chen_Ulf_Resource_Mobilization",
+    "datasetVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "log(wdi.pop)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "wdi.popurb.mi",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "ythbul4",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "log1p(bnk.unrest)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 5,
+          "colName": "log1p(bnk.strikes)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 6,
+          "colName": "log1p(nvc.dosregt)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 7,
+          "colName": "nvc.ongoing",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 8,
+          "colName": "civilwar",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 9,
+          "colName": "nvc.start.1",
+          "colType": "real",
+          "role": [
+            "suggestedTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

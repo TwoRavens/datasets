@@ -1,0 +1,60 @@
+{
+  "about": {
+    "problemID": "TR7_Greed_Versus_Grievance_problem-augmented_problem",
+    "problemName": "Greed_Versus_Grievance (augmented)_problem",
+    "problemDescription": "Condensed replication data for Fearon and Laitin greed versus grievance analysis",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "TR7_Greed_Versus_Grievance_problem-augmented",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "0",
+            "colIndex": 1,
+            "colName": "onset"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "TR7_Greed_Versus_Grievance_problem-augmented",
+            "to": "TR7_Greed_Versus_Grievance_problem-augmented_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "TR7_Greed_Versus_Grievance_problem-augmented",
+            "to": "TR7_Greed_Versus_Grievance_problem-augmented_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "TR7_Greed_Versus_Grievance_problem-augmented",
+            "to": "TR7_Greed_Versus_Grievance_problem-augmented_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1Macro"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

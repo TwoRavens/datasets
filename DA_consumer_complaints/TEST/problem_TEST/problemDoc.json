@@ -1,0 +1,78 @@
+{
+  "about": {
+    "problemID": "DA_consumer_complaints_problem",
+    "problemName": "learning challenge associated with DA_consumer_complaints prediction",
+    "problemDescription": "Based on the consumer complaints data, the task is to predict the relevance score of the complaint to an analyst.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "multiClass"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "DA_consumer_complaints_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 7,
+            "colName": "relevance"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.35,
+      "stratified": false,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "DA_consumer_complaints_dataset",
+            "to": "DA_consumer_complaints_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "DA_consumer_complaints_dataset",
+            "to": "DA_consumer_complaints_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "DA_consumer_complaints_dataset",
+            "to": "DA_consumer_complaints_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1Macro"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  },
+  "dataAugmentation": [
+    {
+      "domain": [
+        "government",
+        "financial regulation"
+      ],
+      "keywords": [
+        "consumer financial protection bureau",
+        "consumer",
+        "complaints",
+        "protect",
+        "unfair practices"
+      ]
+    }
+  ]
+}

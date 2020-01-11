@@ -1,0 +1,113 @@
+{
+  "about": {
+    "datasetID": "TR10b_Chen_Ulf_Grievances",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true,
+    "digest": "c19cd29e0a5767d3a917631cb5a7afad3f5cd82c4f5fccea9887310e96d19c19",
+    "datasetName": "TR10b_Chen_Ulf_Grievances",
+    "datasetVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "log(wdi.pop)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "log(xxxcimr)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "wdi.gdpchg.s",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "sqrt(wdi.cpi)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 5,
+          "colName": "log1p(bnn.yroff)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 6,
+          "colName": "elceleth.c",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 7,
+          "colName": "dispota4.c",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 8,
+          "colName": "cir.physint",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 9,
+          "colName": "I(cir.physint^2)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 10,
+          "colName": "nvc.start.1",
+          "colType": "real",
+          "role": [
+            "suggestedTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

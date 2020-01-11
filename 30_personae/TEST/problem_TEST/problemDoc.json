@@ -1,0 +1,61 @@
+{
+  "about": {
+    "problemID": "30_pe_problem",
+    "problemName": "NULL",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "30_pe_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "1",
+            "colIndex": 6,
+            "colName": "extrovert"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "30_pe_dataset",
+            "to": "30_pe_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "30_pe_dataset",
+            "to": "30_pe_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "30_pe_dataset",
+            "to": "30_pe_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "about": {
+    "problemID": "DA_ny_taxi_demand_problem",
+    "problemName": "learning challenge associated with DA_ny_taxi_demand prediction",
+    "problemDescription": "The task is to predict the number of passenger pickups per hour from LGA airport by NY Yellow taxi. This is a regression problem.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "regression"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "DA_ny_taxi_demand_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 2,
+            "colName": "num_pickups"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.35,
+      "stratified": false,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "DA_ny_taxi_demand_dataset",
+            "to": "DA_ny_taxi_demand_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "DA_ny_taxi_demand_dataset",
+            "to": "DA_ny_taxi_demand_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "DA_ny_taxi_demand_dataset",
+            "to": "DA_ny_taxi_demand_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "meanAbsoluteError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  },
+  "dataAugmentation": [
+    {
+      "domain": [
+        "transportation",
+        "city data",
+        "taxi"
+      ],
+      "keywords": [
+        "new york",
+        "yellow cab",
+        "pickup",
+        "LaGuardia airport"
+      ]
+    },
+    {
+      "domain": [
+        "weather"
+      ],
+      "keywords": [
+        "weather conditions",
+        "new york",
+        "hourly",
+        "LaGuardia airport"
+      ]
+    }
+  ]
+}

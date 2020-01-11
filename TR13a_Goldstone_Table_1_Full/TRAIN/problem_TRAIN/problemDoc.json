@@ -1,0 +1,77 @@
+{
+  "about": {
+    "problemID": "TR13a_Goldstone_Table_1_Full_problem",
+    "problemName": "TR13a_Goldstone_Table_1_Full problem",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "TR13a_Goldstone_Table_1_Full",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 1,
+            "colName": "sftpcons"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "kFold",
+      "stratified": true,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "TR13a_Goldstone_Table_1_Full",
+            "to": "TR13a_Goldstone_Table_1_Full_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "TR13a_Goldstone_Table_1_Full",
+            "to": "TR13a_Goldstone_Table_1_Full_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "TR13a_Goldstone_Table_1_Full",
+            "to": "TR13a_Goldstone_Table_1_Full_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rocAuc"
+      },
+      {
+        "metric": "accuracy"
+      },
+      {
+        "metric": "precision"
+      },
+      {
+        "metric": "recall"
+      },
+      {
+        "metric": "f1"
+      }
+    ],
+    "expectedOutputs": {
+      "predictionsFile": "predictions.csv"
+    }
+  },
+  "searchOptions": {
+    "timeBoundSearch": 10,
+    "solutionsLimit": 5
+  }
+}

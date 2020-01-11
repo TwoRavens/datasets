@@ -1,0 +1,81 @@
+{
+  "about": {
+    "problemID": "TR10e_Chen_Ulf_Political_Opportunity_problem",
+    "problemName": "TR10e_Chen_Ulf_Political_Opportunity problem",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "TR10e_Chen_Ulf_Political_Opportunity",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 12,
+            "colName": "nvc.start.1"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "kFold",
+      "stratified": true,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "TR10e_Chen_Ulf_Political_Opportunity",
+            "to": "TR10e_Chen_Ulf_Political_Opportunity_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "TR10e_Chen_Ulf_Political_Opportunity",
+            "to": "TR10e_Chen_Ulf_Political_Opportunity_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "TR10e_Chen_Ulf_Political_Opportunity",
+            "to": "TR10e_Chen_Ulf_Political_Opportunity_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rocAuc"
+      },
+      {
+        "metric": "accuracy"
+      },
+      {
+        "metric": "precision"
+      },
+      {
+        "metric": "recall"
+      },
+      {
+        "metric": "f1"
+      }
+    ],
+    "expectedOutputs": {
+      "predictionsFile": "predictions.csv"
+    }
+  },
+  "splitOptions": {
+    "splitsFile": "sampleSplits.csv",
+    "splitsDir": "/ravens_volume/test_data/TR10e_Chen_Ulf_Political_Opportunity/TRAIN/problem_TRAIN"
+  },
+  "searchOptions": {
+    "timeBoundSearch": 10,
+    "solutionsLimit": 5
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "about": {
+    "problemID": "TR11_Gelpi_Avdan_problem",
+    "problemName": "TR11_Gelpi_Avdan problem",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "TR11_Gelpi_Avdan",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 21,
+            "colName": "incident"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "kFold",
+      "stratified": true,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "TR11_Gelpi_Avdan",
+            "to": "TR11_Gelpi_Avdan_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "TR11_Gelpi_Avdan",
+            "to": "TR11_Gelpi_Avdan_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "TR11_Gelpi_Avdan",
+            "to": "TR11_Gelpi_Avdan_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rocAuc"
+      },
+      {
+        "metric": "accuracy"
+      },
+      {
+        "metric": "precision"
+      },
+      {
+        "metric": "recall"
+      },
+      {
+        "metric": "f1"
+      }
+    ],
+    "expectedOutputs": {
+      "predictionsFile": "predictions.csv"
+    }
+  },
+  "splitOptions": {
+    "splitsFile": "sampleSplits.csv",
+    "splitsDir": "/ravens_volume/test_data/TR11_Gelpi_Avdan/TRAIN/problem_TRAIN"
+  },
+  "searchOptions": {
+    "timeBoundSearch": 60,
+    "solutionsLimit": 5
+  }
+}

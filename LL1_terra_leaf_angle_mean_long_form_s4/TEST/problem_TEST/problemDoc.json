@@ -1,0 +1,60 @@
+{
+  "about": {
+    "problemID": "LL1_terra_leaf_angle_mean_long_form_s4_problem",
+    "problemName": "LL1 terra leaf angle mean long form s4 problem",
+    "problemDescription": "The task is to predict the final leaf angle measuremnt (in normalized degrees) per cultivar per plot/site",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "timeSeries",
+      "forecasting"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "LL1_terra_leaf_angle_mean_long_form_s4_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 4,
+            "colName": "leaf_angle_mean"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "splitsFile": "dataSplits.csv",
+      "splitScript": "splitScript.py",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "LL1_terra_leaf_angle_mean_long_form_s4_dataset",
+            "to": "LL1_terra_leaf_angle_mean_long_form_s4_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "LL1_terra_leaf_angle_mean_long_form_s4_dataset",
+            "to": "LL1_terra_leaf_angle_mean_long_form_s4_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "LL1_terra_leaf_angle_mean_long_form_s4_dataset",
+            "to": "LL1_terra_leaf_angle_mean_long_form_s4_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "meanAbsoluteError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "about": {
+    "problemID": "incarceration_problem",
+    "problemName": "incarceration_problem",
+    "problemDescription": "",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "regression",
+      "univariate"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "incarceration",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 25,
+            "colName": "incarceration_ratio"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "stratified": true,
+      "numRepeats": 0,
+      "randomSeed": 42,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "incarceration",
+            "to": "incarceration_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "incarceration",
+            "to": "incarceration_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "incarceration",
+            "to": "incarceration_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "meanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

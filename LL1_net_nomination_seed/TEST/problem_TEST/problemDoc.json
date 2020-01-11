@@ -1,0 +1,60 @@
+{
+  "about": {
+    "problemID": "LL1_net_nomination_problem",
+    "problemName": "NULL",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "vertexNomination"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "LL1_net_nomination_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "1",
+            "colIndex": 2,
+            "colName": "classLabel"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.8,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "LL1_net_nomination_dataset",
+            "to": "LL1_net_nomination_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "LL1_net_nomination_dataset",
+            "to": "LL1_net_nomination_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "LL1_net_nomination_dataset",
+            "to": "LL1_net_nomination_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "accuracy"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

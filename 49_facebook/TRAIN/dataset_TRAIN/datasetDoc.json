@@ -1,0 +1,91 @@
+{
+  "about": {
+    "datasetID": "49_fk_dataset_TRAIN",
+    "datasetName": "NULL",
+    "license": "public dataset (unknown license)",
+    "datasetVersion": "4.0.0",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "graphs/G1.gml",
+      "resType": "graph",
+      "resFormat": {
+        "text/vnd.gml": [
+          "gml"
+        ]
+      },
+      "isCollection": false
+    },
+    {
+      "resID": "1",
+      "resPath": "graphs/G2.gml",
+      "resType": "graph",
+      "resFormat": {
+        "text/vnd.gml": [
+          "gml"
+        ]
+      },
+      "isCollection": false
+    },
+    {
+      "resID": "2",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "G1.nodeID",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ],
+          "refersTo": {
+            "resID": "0",
+            "resObject": {
+              "nodeAttribute": "nodeID"
+            }
+          }
+        },
+        {
+          "colIndex": 2,
+          "colName": "G2.nodeID",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ],
+          "refersTo": {
+            "resID": "1",
+            "resObject": {
+              "nodeAttribute": "nodeID"
+            }
+          }
+        },
+        {
+          "colIndex": 3,
+          "colName": "match",
+          "colType": "categorical",
+          "role": [
+            "suggestedTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

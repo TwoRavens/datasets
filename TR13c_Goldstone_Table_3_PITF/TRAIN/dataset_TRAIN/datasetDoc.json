@@ -1,0 +1,113 @@
+{
+  "about": {
+    "datasetID": "TR13c_Goldstone_Table_3_PITF",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true,
+    "digest": "e9fd0b2ad7253e84e56036acfaea6e7407da9f99981e4cb65c4fbb0ac1ba357c",
+    "datasetName": "TR13c_Goldstone_Table_3_PITF",
+    "datasetVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "sftpcons",
+          "colType": "integer",
+          "role": [
+            "suggestedTarget"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "sftptv2a3",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "sftptv2a4",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "sftptv2a5",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 5,
+          "colName": "sftptv2a2",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 6,
+          "colName": "sftptv2a6",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 7,
+          "colName": "logim",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 8,
+          "colName": "maccat",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 9,
+          "colName": "disp4cat",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 10,
+          "colName": "stratidc",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        }
+      ]
+    }
+  ]
+}

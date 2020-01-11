@@ -1,0 +1,129 @@
+{
+  "about": {
+    "datasetID": "TR10e_Chen_Ulf_Political_Opportunity",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true,
+    "digest": "d639ad0c75052d4ae014a332a8c3a59899df82b59a20fe88bd3145edd4b628f7",
+    "datasetName": "TR10e_Chen_Ulf_Political_Opportunity",
+    "datasetVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "log(wdi.pop)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "log1p(age)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "postcoldwar",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "ios.iccpr1",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 5,
+          "colName": "nld.any.1",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 6,
+          "colName": "pitfdem",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 7,
+          "colName": "I(pitfdem * nld.any.1)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 8,
+          "colName": "I(postcoldwar * nld.any.1)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 9,
+          "colName": "as.factor(fiw.cl)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 10,
+          "colName": "log1p(pol.durable)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 11,
+          "colName": "log1p(cou.tries5)",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 12,
+          "colName": "nvc.start.1",
+          "colType": "real",
+          "role": [
+            "suggestedTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

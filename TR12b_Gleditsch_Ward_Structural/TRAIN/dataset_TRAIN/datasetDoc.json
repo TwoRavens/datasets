@@ -1,0 +1,97 @@
+{
+  "about": {
+    "datasetID": "TR12b_Gleditsch_Ward_Structural",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": true,
+    "digest": "9a7bb4ca1d6f4de3723160efa0e2f5a51c5a8df9fd3b9fc75bef6805d29acee6",
+    "datasetName": "TR12b_Gleditsch_Ward_Structural",
+    "datasetVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "pmid",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "py",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "py2",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "py3",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 5,
+          "colName": "minpol",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 6,
+          "colName": "rbal",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 7,
+          "colName": "lnkmdist",
+          "colType": "real",
+          "role": [
+            "attribute"
+          ]
+        },
+        {
+          "colIndex": 8,
+          "colName": "mido",
+          "colType": "integer",
+          "role": [
+            "suggestedTarget"
+          ]
+        }
+      ]
+    }
+  ]
+}

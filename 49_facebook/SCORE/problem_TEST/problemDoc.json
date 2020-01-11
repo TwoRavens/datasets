@@ -1,0 +1,60 @@
+{
+  "about": {
+    "problemID": "49_fk_problem",
+    "problemName": "NULL",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "graphMatching"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "49_fk_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "2",
+            "colIndex": 3,
+            "colName": "match"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.8,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "49_fk_dataset",
+            "to": "49_fk_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "49_fk_dataset",
+            "to": "49_fk_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "49_fk_dataset",
+            "to": "49_fk_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "accuracy"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

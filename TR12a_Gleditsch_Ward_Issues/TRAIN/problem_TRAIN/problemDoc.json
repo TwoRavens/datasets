@@ -1,0 +1,81 @@
+{
+  "about": {
+    "problemID": "TR12a_Gleditsch_Ward_Issues_problem",
+    "problemName": "TR12a_Gleditsch_Ward_Issues problem",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "TR12a_Gleditsch_Ward_Issues",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 11,
+            "colName": "mido"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "kFold",
+      "stratified": true,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "TR12a_Gleditsch_Ward_Issues",
+            "to": "TR12a_Gleditsch_Ward_Issues_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "TR12a_Gleditsch_Ward_Issues",
+            "to": "TR12a_Gleditsch_Ward_Issues_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "TR12a_Gleditsch_Ward_Issues",
+            "to": "TR12a_Gleditsch_Ward_Issues_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rocAuc"
+      },
+      {
+        "metric": "accuracy"
+      },
+      {
+        "metric": "precision"
+      },
+      {
+        "metric": "recall"
+      },
+      {
+        "metric": "f1"
+      }
+    ],
+    "expectedOutputs": {
+      "predictionsFile": "predictions.csv"
+    }
+  },
+  "splitOptions": {
+    "splitsFile": "sampleSplits.csv",
+    "splitsDir": "/ravens_volume/test_data/TR12a_Gleditsch_Ward_Issues/TRAIN/problem_TRAIN"
+  },
+  "searchOptions": {
+    "timeBoundSearch": 10,
+    "solutionsLimit": 5
+  }
+}

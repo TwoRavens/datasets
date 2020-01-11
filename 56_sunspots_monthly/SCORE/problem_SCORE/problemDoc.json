@@ -1,0 +1,60 @@
+{
+  "about": {
+    "problemID": "56_sunspots_monthly_problem",
+    "problemName": "Monthly sunspots prediction problem",
+    "problemDescription": "Predicting monthly numbers of sunspots, as from the World Data Center, aka SIDC.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "timeSeries",
+      "forecasting"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "56_sunspots_monthly_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 2,
+            "colName": "sunspots"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "splitsFile": "dataSplits.csv",
+      "splitScript": "splitScript.py",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "56_sunspots_monthly_dataset",
+            "to": "56_sunspots_monthly_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "56_sunspots_monthly_dataset",
+            "to": "56_sunspots_monthly_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "56_sunspots_monthly_dataset",
+            "to": "56_sunspots_monthly_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

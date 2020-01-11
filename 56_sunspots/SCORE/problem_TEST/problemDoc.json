@@ -1,0 +1,61 @@
+{
+  "about": {
+    "problemID": "56_ss_problem",
+    "problemName": "NULL",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "timeSeries",
+      "forecasting"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "56_ss_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "0",
+            "colIndex": 2,
+            "colName": "sunspot.year"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.1,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "56_ss_dataset",
+            "to": "56_ss_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "56_ss_dataset",
+            "to": "56_ss_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "56_ss_dataset",
+            "to": "56_ss_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

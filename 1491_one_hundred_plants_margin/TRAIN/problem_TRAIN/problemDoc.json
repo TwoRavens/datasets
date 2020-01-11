@@ -1,0 +1,63 @@
+{
+  "about": {
+    "problemID": "1491_one_hundred_plants_problem",
+    "problemName": "NULL",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "multiClass"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "1491_one_hundred_plants_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "0",
+            "colIndex": 65,
+            "colName": "Class"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "stratified": true,
+      "numRepeats": 0,
+      "randomSeed": 42,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "1491_one_hundred_plants_dataset",
+            "to": "1491_one_hundred_plants_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "1491_one_hundred_plants_dataset",
+            "to": "1491_one_hundred_plants_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "1491_one_hundred_plants_dataset",
+            "to": "1491_one_hundred_plants_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1Macro"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

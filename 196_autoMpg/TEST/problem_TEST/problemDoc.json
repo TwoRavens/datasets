@@ -1,0 +1,63 @@
+{
+  "about": {
+    "problemID": "196_autoMpg_problem",
+    "problemName": "NULL",
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0",
+    "taskKeywords": [
+      "regression",
+      "univariate"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "196_autoMpg_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 8,
+            "colName": "class"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "stratified": true,
+      "numRepeats": 0,
+      "randomSeed": 42,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "196_autoMpg_dataset",
+            "to": "196_autoMpg_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "196_autoMpg_dataset",
+            "to": "196_autoMpg_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "196_autoMpg_dataset",
+            "to": "196_autoMpg_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "meanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

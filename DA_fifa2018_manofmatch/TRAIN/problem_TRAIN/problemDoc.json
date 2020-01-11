@@ -1,0 +1,79 @@
+{
+  "about": {
+    "problemID": "DA_fifa2018_manofmatch_problem",
+    "problemName": "learning challenge associated with DA_fifa2018_manofmatch prediction",
+    "problemDescription": "The task is to predict whether a team will have one of its players be Man of the Match based on team's statistics.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "binary"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "DA_fifa2018_manofmatch_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 14,
+            "colName": "Man of the Match"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.352,
+      "stratified": false,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "DA_fifa2018_manofmatch_dataset",
+            "to": "DA_fifa2018_manofmatch_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "DA_fifa2018_manofmatch_dataset",
+            "to": "DA_fifa2018_manofmatch_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "DA_fifa2018_manofmatch_dataset",
+            "to": "DA_fifa2018_manofmatch_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1",
+        "posLabel": "1"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  },
+  "dataAugmentation": [
+    {
+      "domain": [
+        "sports",
+        "soccer"
+      ],
+      "keywords": [
+        "soccer",
+        "FIFA 2018",
+        "statistics",
+        "match data",
+        "man of the match"
+      ]
+    }
+  ]
+}
