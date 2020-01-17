@@ -1,0 +1,35 @@
+{
+    "about": {
+        "problemID": "TR_TS_order_demand_problem_TRAIN",
+        "problemName": "TR_TS_order_demand problem",
+        "taskKeywords": [
+            "forecasting",
+            "timeSeries"
+        ],
+        "problemSchemaVersion": "4.0.0",
+        "problemVersion": "1.0"
+    },
+    "inputs": {
+        "data": [
+            {
+                "datasetID": "TR_TS_order_demand",
+                "targets": []
+            }
+        ],
+        "dataSplits": {
+            "method": "holdOut",
+            "testSize": 0.35,
+            "stratified": false,
+            "numRepeats": 0,
+            "splitsFile": "dataSplits.csv"
+        },
+        "performanceMetrics": [
+            {
+                "metric": "meanSquaredError"
+            }
+        ],
+        "expectedOutputs": {
+            "predictionsFile": "predictions.csv"
+        }
+    }
+}

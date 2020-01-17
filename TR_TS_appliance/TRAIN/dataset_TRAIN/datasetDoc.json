@@ -1,0 +1,266 @@
+{
+    "about": {
+        "datasetID": "TR_TS_appliance",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "4948e8d4b8468f2cb9a9276482e18951f64dea2b6e77995fad3bbb68feb59564",
+        "datasetName": "TR_TS_appliance",
+        "sourceURI": "http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction",
+        "description": "The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters)."
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": [
+                "text/csv"
+            ],
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "date",
+                    "colType": "string",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "Appliances",
+                    "colType": "integer",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                },
+                {
+                    "colIndex": 3,
+                    "colName": "lights",
+                    "colType": "integer",
+                    "role": [
+                        "attribute",
+                        "suggestedGroupingKey"
+                    ]
+                },
+                {
+                    "colIndex": 4,
+                    "colName": "T1",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 5,
+                    "colName": "RH_1",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 6,
+                    "colName": "T2",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 7,
+                    "colName": "RH_2",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 8,
+                    "colName": "T3",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 9,
+                    "colName": "RH_3",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 10,
+                    "colName": "T4",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 11,
+                    "colName": "RH_4",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 12,
+                    "colName": "T5",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 13,
+                    "colName": "RH_5",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 14,
+                    "colName": "T6",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 15,
+                    "colName": "RH_6",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 16,
+                    "colName": "T7",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 17,
+                    "colName": "RH_7",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 18,
+                    "colName": "T8",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 19,
+                    "colName": "RH_8",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 20,
+                    "colName": "T9",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 21,
+                    "colName": "RH_9",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 22,
+                    "colName": "T_out",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 23,
+                    "colName": "Press_mm_hg",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 24,
+                    "colName": "RH_out",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 25,
+                    "colName": "Windspeed",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 26,
+                    "colName": "Visibility",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 27,
+                    "colName": "Tdewpoint",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 28,
+                    "colName": "rv1",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 29,
+                    "colName": "rv2",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                }
+            ]
+        }
+    ]
+}

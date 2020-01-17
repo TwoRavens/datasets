@@ -1,0 +1,42 @@
+{
+    "about": {
+        "problemID": "TR_TS_air_quality_problem_TRAIN",
+        "problemName": "TR_TS_air_quality problem",
+        "taskKeywords": [
+            "forecasting",
+            "timeSeries"
+        ],
+        "problemSchemaVersion": "4.0.0",
+        "problemVersion": "1.0"
+    },
+    "inputs": {
+        "data": [
+            {
+                "datasetID": "TR_TS_air_quality",
+                "targets": [
+                    {
+                        "targetIndex": 0,
+                        "resID": "learningData",
+                        "colIndex": 14,
+                        "colName": "RH"
+                    }
+                ]
+            }
+        ],
+        "dataSplits": {
+            "method": "holdOut",
+            "testSize": 0.35,
+            "stratified": false,
+            "numRepeats": 0,
+            "splitsFile": "dataSplits.csv"
+        },
+        "performanceMetrics": [
+            {
+                "metric": "meanSquaredError"
+            }
+        ],
+        "expectedOutputs": {
+            "predictionsFile": "predictions.csv"
+        }
+    }
+}

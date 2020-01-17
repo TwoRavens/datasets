@@ -1,0 +1,89 @@
+{
+    "about": {
+        "datasetID": "TR_TS_occupancy_classification",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "13f9f8f9a27975c0f84cf944ada863db32389cc125f70f8509de834401ff3baa",
+        "datasetName": "TR_TS_occupancy_classification",
+        "sourceURI": "http://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+#",
+        "description": "Experimental data used for binary classification (room occupancy) from Temperature,Humidity,Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute."
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": [
+                "text/csv"
+            ],
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "Date",
+                    "colType": "string",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "Temperature",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 3,
+                    "colName": "Humidity",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 4,
+                    "colName": "Light",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 5,
+                    "colName": "CO2",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 6,
+                    "colName": "HumidityRatio",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 7,
+                    "colName": "Occupancy",
+                    "colType": "integer",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                }
+            ]
+        }
+    ]
+}
