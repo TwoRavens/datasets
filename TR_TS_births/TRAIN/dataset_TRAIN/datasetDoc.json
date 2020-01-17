@@ -1,0 +1,49 @@
+{
+    "about": {
+        "datasetID": "TR_TS_births",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "b85a159697b2198eb2f77305d361f8605973153c2265863b37053c54ea281b1c",
+        "datasetName": "TR_TS_births",
+        "sourceURI": "https://machinelearningmastery.com/time-series-datasets-for-machine-learning/",
+        "description": "This dataset describes the number of daily female births in California in 1959.\n\nThe units are a count and there are 365 observations. The source of the dataset is credited to Newton (1988)."
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": [
+                "text/csv"
+            ],
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "Date",
+                    "colType": "string",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "Births",
+                    "colType": "integer",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                }
+            ]
+        }
+    ]
+}

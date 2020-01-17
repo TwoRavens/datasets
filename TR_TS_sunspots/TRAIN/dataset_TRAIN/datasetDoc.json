@@ -1,0 +1,49 @@
+{
+    "about": {
+        "datasetID": "TR_TS_sunspots",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "ee3ec2ee0fbae5daea75203a57da0f2c6d9a9a0187f061d4b8a3e21af4643b92",
+        "datasetName": "TR_TS_sunspots",
+        "sourceURI": "https://machinelearningmastery.com/time-series-datasets-for-machine-learning/",
+        "description": "This dataset describes a monthly count of the number of observed sunspots for just over 230 years (1749-1983).\n\nThe units are a count and there are 2,820 observations. The source of the dataset is credited to Andrews & Herzberg (1985)."
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": [
+                "text/csv"
+            ],
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "Month",
+                    "colType": "string",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "Sunspots",
+                    "colType": "real",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                }
+            ]
+        }
+    ]
+}

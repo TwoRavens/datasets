@@ -1,0 +1,49 @@
+{
+    "about": {
+        "datasetID": "TR_TS_minimum_daily_temp",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "695e5045b40f30c6c9c994b851e03441c26de3213fc121cc36fa871a786b10b1",
+        "datasetName": "TR_TS_minimum_daily_temp",
+        "sourceURI": "https://machinelearningmastery.com/time-series-datasets-for-machine-learning/",
+        "description": "This dataset describes the minimum daily temperatures over 10 years (1981-1990) in the city Melbourne, Australia.\n\nThe units are in degrees Celsius and there are 3650 observations. The source of the data is credited as the Australian Bureau of Meteorology."
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": [
+                "text/csv"
+            ],
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "Date",
+                    "colType": "string",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "Temp",
+                    "colType": "real",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                }
+            ]
+        }
+    ]
+}
