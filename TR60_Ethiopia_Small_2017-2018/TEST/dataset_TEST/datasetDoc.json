@@ -1,0 +1,158 @@
+{
+  "about": {
+    "datasetID": "TR60_Ethiopia_Small_2017-2018",
+    "datasetName": "Ethiopia_Oromia_Monthly_2017_2018",
+    "description": "Available monthly woreda data in Oromia, 2017-18.",
+    "citation": "",
+    "datasetSchemaVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": ["text/csv"],
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": ["index"]
+        },
+        {
+          "colIndex": 1,
+          "colName": "time",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 2,
+          "colName": "woreda_wikidata",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 3,
+          "colName": "woreda_label",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 4,
+          "colName": "zone_wikidata",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 5,
+          "colName": "zone_label",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 6,
+          "colName": "region_wikidata",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 7,
+          "colName": "region_label",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 8,
+          "colName": "country_wikidata",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 9,
+          "colName": "country_label",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 10,
+          "colName": "Prices_of_Domestic_sheep__retail_",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 11,
+          "colName": "Prices_of_Gasoline__retail_",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 12,
+          "colName": "Prices_of_Maize__retail_",
+          "colType": "real",
+          "role": ["suggestedTarget"]
+        },
+        {
+          "colIndex": 13,
+          "colName": "Prices_of_Maize__wholesale_",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 14,
+          "colName": "Cholera_AWD_Cases_ratio_per_1000",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 15,
+          "colName": "Dysentery_total_Cases_ratio_per_1000",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 16,
+          "colName": "Malnutrition_total_Cases_ratio_per_1000",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 17,
+          "colName": "Total_Malaria_Confirmed_and_Clinical_ratio_per_1000",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 18,
+          "colName": "Typhoid_fever_OutP_Cases_ratio_per_1000",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 19,
+          "colName": "precipitation_height",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 20,
+          "colName": "X2_year_flood_flood_duration_in_a_month",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 21,
+          "colName": "Total_Population",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 22,
+          "colName": "Unemployment_rate",
+          "colType": "real",
+          "role": ["attribute"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "about": {
+    "datasetID": "TR50_PRIO_GRID",
+    "datasetName": "PRIO-GRID Data",
+    "description": "The PRIO-Grid data set is a spatio-temporal grid structure constructed to aid the compilation, management and analysis of spatial data within a time-consistent framework. It consists of quadratic grid cells that jointly cover all terrestrial areas of the world.",
+    "citation": "",
+    "datasetSchemaVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": ["text/csv"],
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": ["index"]
+        },
+        {
+          "colIndex": 1,
+          "colName": "gid",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 2,
+          "colName": "year",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 3,
+          "colName": "bdist1",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 4,
+          "colName": "capdist",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 5,
+          "colName": "droughtend_speibase",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 6,
+          "colName": "droughtend_speigdm",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 7,
+          "colName": "droughtend_spi",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 8,
+          "colName": "droughtstart_speibase",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 9,
+          "colName": "droughtstart_speigdm",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 10,
+          "colName": "droughtstart_spi",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 11,
+          "colName": "droughtyr_speibase",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 12,
+          "colName": "droughtyr_speigdm",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 13,
+          "colName": "droughtyr_spi",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 14,
+          "colName": "excluded",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 15,
+          "colName": "gwno",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 16,
+          "colName": "nlights_calib_mean",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 17,
+          "colName": "prec_gpcc",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 18,
+          "colName": "prec_gpcp",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 19,
+          "colName": "temp",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 20,
+          "colName": "cmr_mean",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 21,
+          "colName": "civconf",
+          "colType": "integer",
+          "role": ["suggestedTarget"]
+        }
+      ]
+    }
+  ]
+}

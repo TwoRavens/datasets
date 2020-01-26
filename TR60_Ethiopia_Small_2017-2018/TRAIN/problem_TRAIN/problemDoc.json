@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR60_Ethiopia_Small_2017-2018_problem",
+    "problemName": "Ethiopia_Oromia_Monthly_2017_2018",
+    "problemDescription": "Available monthly woreda data in Oromia, 2017-18.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_Oromia_Monthly_2017_2018_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 12,
+            "colName": "Prices_of_Maize__retail_"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
