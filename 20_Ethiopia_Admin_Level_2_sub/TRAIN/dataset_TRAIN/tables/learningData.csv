@@ -1,4 +1,4 @@
-d3mIndex,administrative_area_level_1,administrative_area_level_2,parseDate,uniloc.x,precipitation,year,TOTAL_A_KM,WATER_A_KM,LAND_A_KM,ISOALPHA,COUNTRYNM,un_wpp_pop_est_li,un_wpp_pop_dens_li,uniloc.y,Maize (white) - Retail_li,Wheat - Wholesale_li
+d3mIndex,administrative_area_level_1,administrative_area_level_2,parseDate,uniloc.x,precipitation,year,TOTAL_A_KM,WATER_A_KM,LAND_A_KM,ISOALPHA,COUNTRYNM,un_wpp_pop_est_li,un_wpp_pop_dens_li,uniloc.y,Maize(white)-Retail_li,Wheat-Wholesale_li
 0,Addis Ababa,,2011-01,Ethiopia-ADDIS ABABA CITY ADMINISTRATION-ADDIS ABABA CITY ADMINISTRATION,,2011.0,542.9348,0.0,542.9348,ETH,Ethiopia,3260781.2,6005.8434,Ethiopia-Addis Ababa-Addis Ababa,,709.5111
 1,Addis Ababa,,2011-02,Ethiopia-ADDIS ABABA CITY ADMINISTRATION-ADDIS ABABA CITY ADMINISTRATION,,2011.0,542.9348,0.0,542.9348,ETH,Ethiopia,3266203.55,6015.83051666667,Ethiopia-Addis Ababa-Addis Ababa,,719.3432
 2,Addis Ababa,,2011-03,Ethiopia-ADDIS ABABA CITY ADMINISTRATION-ADDIS ABABA CITY ADMINISTRATION,,2011.0,542.9348,0.0,542.9348,ETH,Ethiopia,3271625.9,6025.81763333333,Ethiopia-Addis Ababa-Addis Ababa,,729.1753

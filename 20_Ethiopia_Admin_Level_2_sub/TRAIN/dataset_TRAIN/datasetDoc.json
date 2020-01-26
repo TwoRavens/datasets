@@ -3,7 +3,7 @@
         "datasetID": "eth_admin2_mon_sub",
         "datasetSchemaVersion": "4.0.0",
         "redacted": true,
-        "digest": "8640c7746de73931acb74b8be485bdc7b5eaa37321d8e3494f5c5e868ed3c90e",
+        "digest": "34f1e82f52a859861a9d578f1089e19130711c3982d9abe9d1aaf7c0c4d52ae0",
         "datasetName": "Ethiopia_Administrative_Level_2_Data"
     },
     "dataResources": [
@@ -138,7 +138,7 @@
                 },
                 {
                     "colIndex": 15,
-                    "colName": "Maize (white) - Retail_li",
+                    "colName": "Maize(white)-Retail_li",
                     "colType": "real",
                     "role": [
                         "attribute"
@@ -146,7 +146,7 @@
                 },
                 {
                     "colIndex": 16,
-                    "colName": "Wheat - Wholesale_li",
+                    "colName": "Wheat-Wholesale_li",
                     "colType": "real",
                     "role": [
                         "attribute"
