@@ -1,10 +1,10 @@
 {
     "about": {
-        "datasetID": "dataset_dkxxem",
+        "datasetID": "eth_admin2_mon_sub",
         "datasetSchemaVersion": "4.0.0",
         "redacted": true,
         "digest": "8640c7746de73931acb74b8be485bdc7b5eaa37321d8e3494f5c5e868ed3c90e",
-        "datasetName": "dataset_dkxxem"
+        "datasetName": "Ethiopia_Administrative_Level_2_Data"
     },
     "dataResources": [
         {
