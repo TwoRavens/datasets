@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR84_Ethiopia_zone_mon_problem",
+    "problemName": "Ethiopia_zone_mon",
+    "problemDescription": "Ethiopia data at the zone-month level--for predicting crop production and prices.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_zone_mon_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 15,
+            "colName": "MaizeProductionQuintal"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

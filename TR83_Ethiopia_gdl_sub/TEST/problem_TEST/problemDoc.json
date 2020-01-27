@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR83_Ethiopia_gdl_sub_problem",
+    "problemName": "Ethiopia_gdl_sub",
+    "problemDescription": "Cleaned DHS survey data, all of Africa at the region-year level--for exploring variation in development across Africa at subnational levels over time. ",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_gdl_sub_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 52,
+            "colName": "inf_mort"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

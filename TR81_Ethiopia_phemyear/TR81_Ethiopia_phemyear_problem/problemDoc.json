@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR81_Ethiopia_phemyear_problem",
+    "problemName": "Ethiopia_phemyear",
+    "problemDescription": "PHEM health data at the Woreda-year level--for exploring yearly aggregated health statistics across Ethiopia.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_phemyear_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 30,
+            "colName": "Malnutrition_total_Cases"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

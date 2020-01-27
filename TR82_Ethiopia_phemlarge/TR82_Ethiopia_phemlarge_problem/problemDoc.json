@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR82_Ethiopia_phemlarge_problem",
+    "problemName": "Ethiopia_phemlarge",
+    "problemDescription": "PHEM health data at the Woreda-week level--for exploring concerns about public health across Ethiopia in recent years.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_phemlarge_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 34,
+            "colName": "Malnutrition_total_Cases"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
