@@ -1,14 +1,17 @@
 {
   "about": {
+    "problemDescription": "The PRIO-Grid data set is a spatio-temporal grid structure constructed to aid the compilation, management and analysis of spatial data within a time-consistent framework. It consists of quadratic grid cells that jointly cover all terrestrial areas of the world.",
     "problemID": "TR50_PRIO_GRID_problem",
     "problemName": "PRIO-GRID Data",
-    "problemDescription": "The PRIO-Grid data set is a spatio-temporal grid structure constructed to aid the compilation, management and analysis of spatial data within a time-consistent framework. It consists of quadratic grid cells that jointly cover all terrestrial areas of the world.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
     "taskKeywords": [
       "classification",
       "binary"
-    ],
-    "problemVersion": "4.0.0",
-    "problemSchemaVersion": "4.0.0"
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
   },
   "inputs": {
     "data": [
@@ -16,10 +19,10 @@
         "datasetID": "PRIO-GRID Data_dataset",
         "targets": [
           {
-            "targetIndex": 0,
-            "resID": "learningData",
             "colIndex": 21,
-            "colName": "civconf"
+            "colName": "civconf",
+            "resID": "learningData",
+            "targetIndex": 0
           }
         ]
       }
@@ -28,13 +31,14 @@
       "method": "holdOut",
       "testSize": 0
     },
+    "forecastingHorizon": {
+      "colName": "year",
+      "horizonValue": 2
+    },
     "performanceMetrics": [
       {
         "metric": "f1Macro"
       }
     ]
-  },
-  "expectedOutputs": {
-    "predictionsFile": "predictions.csv"
   }
 }

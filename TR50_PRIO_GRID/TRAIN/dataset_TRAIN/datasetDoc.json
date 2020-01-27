@@ -24,7 +24,7 @@
           "colIndex": 1,
           "colName": "gid",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": ["attribute", "suggestedGroupingKey"]
         },
         {
           "colIndex": 2,
@@ -108,7 +108,7 @@
           "colIndex": 15,
           "colName": "gwno",
           "colType": "integer",
-          "role": ["attribute", "suggestedGroupingKey"]
+          "role": ["attribute"]
         },
         {
           "colIndex": 16,
