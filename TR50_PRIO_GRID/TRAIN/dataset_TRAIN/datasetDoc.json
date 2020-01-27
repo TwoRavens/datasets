@@ -30,7 +30,7 @@
           "colIndex": 2,
           "colName": "year",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": ["attribute", "timeIndicator"]
         },
         {
           "colIndex": 3,
@@ -108,7 +108,7 @@
           "colIndex": 15,
           "colName": "gwno",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": ["attribute", "suggestedGroupingKey"]
         },
         {
           "colIndex": 16,

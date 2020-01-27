@@ -24,7 +24,7 @@
           "colIndex": 1,
           "colName": "time",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": ["attribute", "timeIndicator"]
         },
         {
           "colIndex": 2,
