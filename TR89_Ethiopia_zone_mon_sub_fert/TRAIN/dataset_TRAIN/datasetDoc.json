@@ -1,0 +1,140 @@
+{
+  "about": {
+    "datasetID": "TR89_Ethiopia_zone_mon_sub_fert",
+    "datasetName": "Ethiopia_phemclean",
+    "description": "Cleaned Ethiopia data at the zone-month level, with conflict variables--for predicting crop production and prices, includes fertilizer data.",
+    "citation": "",
+    "datasetSchemaVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": ["text/csv"],
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": ["index"]
+        },
+        {
+          "colIndex": 1,
+          "colName": "Region",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 2,
+          "colName": "Zone",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 3,
+          "colName": "Year",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 4,
+          "colName": "Month",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 5,
+          "colName": "Date",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 6,
+          "colName": "precipitation",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 7,
+          "colName": "TOTAL_A_KM",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 8,
+          "colName": "WATER_A_KM",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 9,
+          "colName": "LAND_A_KM",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 10,
+          "colName": "ISOALPHA",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 11,
+          "colName": "COUNTRYNM",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 12,
+          "colName": "population",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 13,
+          "colName": "population_density",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 14,
+          "colName": "MaizeRetailPrice_li",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 15,
+          "colName": "MaizeProductionQuintal",
+          "colType": "real",
+          "role": ["suggestedTarget"]
+        },
+        {
+          "colIndex": 16,
+          "colName": "MaizeYieldQtHa",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 17,
+          "colName": "Fertilizer_Area.HA",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 18,
+          "colName": "Fertilizer_Hectare",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 19,
+          "colName": "Fertilizer_Quintal",
+          "colType": "integer",
+          "role": ["attribute"]
+        }
+      ]
+    }
+  ]
+}
