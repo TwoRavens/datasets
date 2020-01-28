@@ -23,6 +23,10 @@
         ]
       }
     ],
+    "forecastingHorizon": {
+      "colName": "year",
+      "horizonValue": 3
+    },
     "dataSplits": {
       "method": "holdOut",
       "testSize": 0
