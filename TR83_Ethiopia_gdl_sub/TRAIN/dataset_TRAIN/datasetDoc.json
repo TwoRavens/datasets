@@ -54,7 +54,7 @@
           "colIndex": 6,
           "colName": "year",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": ["attribute", "timeIndicator"]
         },
         {
           "colIndex": 7,
