@@ -24,7 +24,7 @@
           "colIndex": 1,
           "colName": "time",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": ["attribute", "timeIndicator"]
         },
         {
           "colIndex": 2,
@@ -60,7 +60,7 @@
           "colIndex": 7,
           "colName": "region_label",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": ["attribute", "suggestedGroupingKey"]
         },
         {
           "colIndex": 8,

@@ -27,6 +27,10 @@
       "method": "holdOut",
       "testSize": 0
     },
+    "forecastingHorizon": {
+      "colName": "time",
+      "horizonValue": 5
+    },
     "performanceMetrics": [
       {
         "metric": "rootMeanSquaredError"
