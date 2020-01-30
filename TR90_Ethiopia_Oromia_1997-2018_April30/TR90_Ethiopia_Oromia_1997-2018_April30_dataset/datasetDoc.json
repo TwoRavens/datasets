@@ -1,0 +1,200 @@
+{
+  "about": {
+    "datasetID": "TR90_Ethiopia_Oromia_1997-2018_April30",
+    "datasetName": "Ethiopia_Oromia_Yearly_2008_2018",
+    "description": "Available monthly woreda confict data in Oromia, 2008-18.",
+    "citation": "",
+    "datasetSchemaVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": ["text/csv"],
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": ["index"]
+        },
+        {
+          "colIndex": 1,
+          "colName": "ISO",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 2,
+          "colName": "EVENT_ID_CNTY",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 3,
+          "colName": "EVENT_ID_NO_CNTY",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 4,
+          "colName": "EVENT_DATE",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 5,
+          "colName": "YEAR",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 6,
+          "colName": "TIME_PRECISION",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 7,
+          "colName": "EVENT_TYPE",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 8,
+          "colName": "SUB_EVENT_TYPE",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 9,
+          "colName": "ACTOR1",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 10,
+          "colName": "ASSOC_ACTOR_1",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 11,
+          "colName": "INTER1",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 12,
+          "colName": "ACTOR2",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 13,
+          "colName": "ASSOC_ACTOR_2",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 14,
+          "colName": "INTER2",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 15,
+          "colName": "INTERACTION",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 16,
+          "colName": "REGION",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 17,
+          "colName": "COUNTRY",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 18,
+          "colName": "ADMIN1",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 19,
+          "colName": "ADMIN2",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 20,
+          "colName": "ADMIN3",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 21,
+          "colName": "LOCATION",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 22,
+          "colName": "LATITUDE",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 23,
+          "colName": "LONGITUDE",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 24,
+          "colName": "GEO_PRECISION",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 25,
+          "colName": "SOURCE",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 26,
+          "colName": "SOURCE_SCALE",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 27,
+          "colName": "NOTES",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 28,
+          "colName": "FATALITIES",
+          "colType": "integer",
+          "role": ["suggestedTarget"]
+        },
+        {
+          "colIndex": 29,
+          "colName": "TIMESTAMP",
+          "colType": "integer",
+          "role": ["attribute"]
+        }
+      ]
+    }
+  ]
+}

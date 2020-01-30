@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR90_Ethiopia_Oromia_1997-2018_April30_problem",
+    "problemName": "Ethiopia_Oromia_Yearly_2008_2018",
+    "problemDescription": "Available monthly woreda confict data in Oromia, 2008-18.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Ethiopia_Oromia_Yearly_2008_2018_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 28,
+            "colName": "FATALITIES"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
