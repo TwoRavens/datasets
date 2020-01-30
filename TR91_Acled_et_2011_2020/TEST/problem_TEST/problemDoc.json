@@ -1,0 +1,39 @@
+{
+  "about": {
+    "problemID": "TR91_Acled_et_2011_2020_problem",
+    "problemName": "ACLED_Individual_Events_2011_2020",
+    "problemDescription": "Available yearly woreda data in Oromia, 2008-18.",
+    "taskKeywords": [
+      "regression"
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "ACLED_Individual_Events_2011_2020_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 11,
+            "colName": "INTERACTION"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
