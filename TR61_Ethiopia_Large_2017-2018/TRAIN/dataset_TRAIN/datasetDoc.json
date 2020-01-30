@@ -853,6 +853,18 @@
           "colName": "Urban_unemployment_rate",
           "colType": "real",
           "role": ["attribute"]
+        },
+        {
+          "colIndex": 140,
+          "colName": "Protected_Water",
+          "colType": "real",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 141,
+          "colName": "Unprotected_Water",
+          "colType": "real",
+          "role": ["attribute"]
         }
       ]
     }
