@@ -1,0 +1,77 @@
+{
+  "about": {
+    "datasetID": "LL1_PHEM_Monthly_Malnutrition_MIN_METADATA_dataset",
+    "datasetName": "LL1 PHEM monthly malnutrition dataset",
+    "description": "This data is provided by Ethiopian Public Health Institute (PHEM). It contains monthly reported cases of malnutrition at the level of Woreda for the years 2017 to 2019.",
+    "citation": "",
+    "license": "Unknown",
+    "source": "Ethiopian Public Health Institute (PHEM)",
+    "sourceURI": "",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": false,
+    "datasetVersion": "4.0.0",
+    "digest": "c15eccc372aedfb849a1ab9e1b4ceebfbbda2d074936ffb1bedae5527a2e4b02"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "RegionName",
+          "colType": "categorical",
+          "role": [
+            "attribute",
+            "suggestedGroupingKey"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "ZoneName",
+          "colType": "categorical",
+          "role": [
+            "attribute",
+            "suggestedGroupingKey"
+          ]
+        },
+        {
+          "colIndex": 3,
+          "colName": "WoredaName",
+          "colType": "categorical",
+          "role": [
+            "attribute",
+            "suggestedGroupingKey"
+          ]
+        },
+        {
+          "colIndex": 4,
+          "colName": "dateTime",
+          "colType": "dateTime",
+          "role": [
+            "attribute",
+            "timeIndicator"
+          ],
+          "timeGranularity": {
+            "value": 4.34524,
+            "units": "weeks"
+          }
+        }
+      ]
+    }
+  ]
+}
