@@ -1,0 +1,60 @@
+{
+  "about": {
+    "datasetID": "124_95_uc_merced_land_use_MIN_METADATA_dataset",
+    "datasetName": "uc_merced_land_use",
+    "description": "Overhead image classification dataset consisting of 2100 256x256 images of 21 classes.",
+    "citation": "@inproceedings{yang2010bag,  title={Bag-of-visual-words and spatial extensions for land-use classification},  author={Yang, Yi and Newsam, Shawn},  booktitle={Proceedings of the 18th SIGSPATIAL international conference on advances in geographic information systems},  pages={270--279},  year={2010},  organization={ACM}}",
+    "license": "open",
+    "source": "UC Merced",
+    "sourceURI": "http://weegee.vision.ucmerced.edu/datasets/landuse.html",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": false,
+    "datasetVersion": "4.0.0",
+    "digest": "5a0dd47634649872180b0ec4678ce1bed63146edb9af85cbb3d11b5ca805f0a6"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "media/",
+      "resType": "image",
+      "resFormat": {
+        "image/png": [
+          "png"
+        ]
+      },
+      "isCollection": true
+    },
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "image",
+          "colType": "string",
+          "role": [
+            "attribute"
+          ],
+          "refersTo": {
+            "resID": "0",
+            "resObject": "item"
+          }
+        }
+      ]
+    }
+  ]
+}

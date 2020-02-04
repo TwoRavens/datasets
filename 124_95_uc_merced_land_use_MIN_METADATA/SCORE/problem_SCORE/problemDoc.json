@@ -1,0 +1,65 @@
+{
+  "about": {
+    "problemID": "124_95_uc_merced_land_use_MIN_METADATA_problem",
+    "problemName": "uc_merced_land_use_problem",
+    "problemDescription": "Multiclass image classification problem. Each image belongs to one of 21 classes.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "4.0.0",
+    "taskKeywords": [
+      "classification",
+      "multiClass",
+      "image",
+      "remoteSensing"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "124_95_uc_merced_land_use_MIN_METADATA_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 2,
+            "colName": "label"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "stratified": true,
+      "numRepeats": 0,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "124_95_uc_merced_land_use_MIN_METADATA_dataset",
+            "to": "124_95_uc_merced_land_use_MIN_METADATA_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "124_95_uc_merced_land_use_MIN_METADATA_dataset",
+            "to": "124_95_uc_merced_land_use_MIN_METADATA_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "124_95_uc_merced_land_use_MIN_METADATA_dataset",
+            "to": "124_95_uc_merced_land_use_MIN_METADATA_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "accuracy"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
