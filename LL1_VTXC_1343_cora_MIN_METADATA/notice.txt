@@ -1,0 +1,14 @@
+-----------------NOTICE------------------
+This dataset was collected for use within the DARPA Data Driven Discovery of Models (D3M) program.
+
+ID: LL1_VTXC_1343_cora
+Name: LL1_VTXC_1343_cora_dataset
+Description: This dataset consists of a network of scientific publications broken down into a feature matrix for each publication and a network of references.
+
+License: open
+License Link:  -NA-
+
+Source: LINQS: STATISTICAL RELATIONAL LEARNING GROUP, UC Santa Cruz
+Source Link: https://linqs.soe.ucsc.edu/data
+Citation: @inproceedings{Lu2003LinkbasedC,  title={Link-based classification},  author={Qing Lu and Lise Getoor},  booktitle={ICML 2003},  year={2003}}
+-----------------END------------------

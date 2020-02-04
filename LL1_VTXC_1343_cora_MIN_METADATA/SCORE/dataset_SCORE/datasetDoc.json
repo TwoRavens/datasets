@@ -1,0 +1,126 @@
+{
+  "about": {
+    "datasetID": "LL1_VTXC_1343_cora_MIN_METADATA_dataset_SCORE",
+    "datasetName": "CORA vertex classification dataset",
+    "description": "This dataset consists of a network of scientific publications broken down into a feature matrix for each publication and a network of references.",
+    "license": "Other (open dataset)",
+    "citation": "Qing Lu, and Lise Getoor. Link-based classification. ICML, 2003",
+    "source": "LINQS: STATISTICAL RELATIONAL LEARNING GROUP, UC Santa Cruz",
+    "sourceURI": "https://linqs.soe.ucsc.edu/home",
+    "datasetSchemaVersion": "4.0.0",
+    "redacted": false,
+    "digest": "dc2e8f5060992b7ff9bf51cbc076a31085904912b1b06ba7bdb2f24aaa59e602",
+    "datasetVersion": "5.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "nodeID",
+          "colType": "integer",
+          "role": [
+            "attribute",
+            "key"
+          ],
+          "refersTo": {
+            "resID": "2",
+            "resObject": {
+              "columnName": "nodeID"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "resID": "1",
+      "resPath": "graphs/edgeList.csv",
+      "resType": "edgeList",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "edgeIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "node1",
+          "colType": "integer",
+          "role": [
+            "attribute",
+            "edgeSource",
+            "undirectedEdgeSource",
+            "simpleEdgeSource"
+          ],
+          "refersTo": {
+            "resID": "2",
+            "resObject": {
+              "columnName": "nodeID"
+            }
+          }
+        },
+        {
+          "colIndex": 2,
+          "colName": "node2",
+          "colType": "integer",
+          "role": [
+            "attribute",
+            "edgeTarget",
+            "undirectedEdgeTarget",
+            "simpleEdgeTarget"
+          ],
+          "refersTo": {
+            "resID": "2",
+            "resObject": {
+              "columnName": "nodeID"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "resID": "2",
+      "resPath": "graphs/nodeList.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "nodeID",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        }
+      ]
+    }
+  ]
+}
