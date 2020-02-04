@@ -1,0 +1,14 @@
+-----------------NOTICE------------------
+This dataset was collected for use within the DARPA Data Driven Discovery of Models (D3M) program.
+
+ID: LL1_terra_canopy_height_long_form_s4_90
+Name: LL1_terra_canopy_height_long_form_s4_90_dataset
+Description: This dataset contains phenotypic features (i.e. canopy height measurements) for several genetic variants (cultivars) of the sorghum plant. The plant heights were measured by laser scanners over the course of 133 days. Each plot (site) contains a timeseries of height measurements (in cm) taken over the 133 day period. The task is to predict the last height measurement of each plot/site.
+
+License: CC0: Public Domain
+License Link: https://docs.terraref.org/user-manual/data-use-policy
+
+Source: TERRA-REF
+Source Link: https://docs.terraref.org/how-to-access-data
+Citation:  -NA-
+-----------------END------------------
