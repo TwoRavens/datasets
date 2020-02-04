@@ -1,0 +1,106 @@
+{
+  "about": {
+    "datasetID": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset_TRAIN",
+    "datasetName": "LL1 GT actor group association prediction dataset",
+    "description": "Predicting the strength of actor-group association over time in a dynamically evolving social network",
+    "license": "not for public release",
+    "source": "DARPA Ground Truth Program",
+    "datasetSchemaVersion": "4.0.0",
+    "datasetVersion": "1.0",
+    "digest": "3d4d7cc7a7a1a836052afc57685f5d025146a685352c66e63783d5c7399392c8"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "graphs/edgeList.csv",
+      "resType": "edgeList",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "edgeID",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "agentID",
+          "colType": "string",
+          "role": [
+            "attribute",
+            "edgeSource",
+            "undirectedEdgeSource",
+            "simpleEdgeSource"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "groupID",
+          "colType": "integer",
+          "role": [
+            "attribute",
+            "edgeTarget",
+            "undirectedEdgeTarget",
+            "simpleEdgeTarget"
+          ]
+        }
+      ]
+    },
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colDescription": "Index",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 1,
+          "colName": "timestep",
+          "colDescription": "time step in simulation time (units unknown)",
+          "colType": "dateTime",
+          "timeGranularity": {
+            "value": 1,
+            "units": "unspecified"
+          },
+          "role": [
+            "attribute",
+            "timeIndicator"
+          ]
+        },
+        {
+          "colIndex": 2,
+          "colName": "edgeID",
+          "colDescription": "an ID and a reference to an edge in the network",
+          "colType": "integer",
+          "role": [
+            "attribute"
+          ],
+          "refersTo": {
+            "resID": "0",
+            "resObject": {
+              "edgeAttribute": "edgeID"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

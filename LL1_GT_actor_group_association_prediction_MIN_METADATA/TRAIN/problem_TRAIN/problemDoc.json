@@ -1,0 +1,69 @@
+{
+  "about": {
+    "problemID": "LL1_GT_actor_group_association_prediction_MIN_METADATA_problem",
+    "problemName": "LL1 GT actor group association prediction problem",
+    "problemDescription": "This is a timeseries link prediction problem. The task can be to predict the strength pf association over time between an actor and a group in an evolving dynamic social network.",
+    "taskKeywords": [
+      "linkPrediction",
+      "graph",
+      "timeSeries"
+    ],
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "1.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 3,
+            "colName": "association_strength"
+          }
+        ],
+        "forecastingHorizon": {
+          "resID": "learningData",
+          "colIndex": 1,
+          "colName": "timestep",
+          "horizonValue": 210
+        }
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.05,
+      "splitScript": "splitScript.py",
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset",
+            "to": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset",
+            "to": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset",
+            "to": "LL1_GT_actor_group_association_prediction_MIN_METADATA_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
