@@ -1,0 +1,40 @@
+{
+  "about": {
+    "problemID": "TR20_State_Conflict_problem",
+    "problemName": "State_Conflict",
+    "problemDescription": "Counts and Indicators on Political Violence, 2017",
+    "taskKeywords": [
+      "regression",
+      ""
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "State_Conflict_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 8,
+            "colName": "Terrorism_Deaths"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}

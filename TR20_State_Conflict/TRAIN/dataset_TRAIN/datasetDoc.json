@@ -1,0 +1,134 @@
+{
+  "about": {
+    "datasetID": "TR20_State_Conflict",
+    "datasetName": "State_Conflict",
+    "description": "Counts and Indicators on Political Violence, 2017",
+    "citation": "",
+    "datasetSchemaVersion": "4.0.0"
+  },
+  "dataResources": [
+    {
+      "resID": "0",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": ["text/csv"],
+      "isCollection": false,
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": ["index"]
+        },
+        {
+          "colIndex": 1,
+          "colName": "Country",
+          "colType": "categorical",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 2,
+          "colName": "Year",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 3,
+          "colName": "Month",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 4,
+          "colName": "Atrocities",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 5,
+          "colName": "Protest.Riot.Fatality",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 6,
+          "colName": "Internal_Force_Engagements",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 7,
+          "colName": "Internal_engagement_fatalities.x",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 8,
+          "colName": "Terrorism_Deaths",
+          "colType": "integer",
+          "role": ["suggestedTarget"]
+        },
+        {
+          "colIndex": 9,
+          "colName": "Terror_Attacks",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 10,
+          "colName": "Atrocity",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 11,
+          "colName": "Domestic_unrest",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 12,
+          "colName": "Internal_force_engagement50",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 13,
+          "colName": "Internal_force_engagement25",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 14,
+          "colName": "Internal_engagement_fatalities.y",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 15,
+          "colName": "Terrorism_fatalities",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 16,
+          "colName": "Terrorism_incidents",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 17,
+          "colName": "Terrorism",
+          "colType": "integer",
+          "role": ["attribute"]
+        },
+        {
+          "colIndex": 18,
+          "colName": "High_casualty_event",
+          "colType": "integer",
+          "role": ["attribute"]
+        }
+      ]
+    }
+  ]
+}
