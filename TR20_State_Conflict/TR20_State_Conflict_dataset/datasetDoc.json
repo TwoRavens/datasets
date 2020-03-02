@@ -46,7 +46,7 @@
         },
         {
           "colIndex": 5,
-          "colName": "Protest.Riot.Fatality",
+          "colName": "Protest_Riot_Fatality",
           "colType": "integer",
           "role": ["attribute"]
         },
@@ -58,7 +58,7 @@
         },
         {
           "colIndex": 7,
-          "colName": "Internal_engagement_fatalities.x",
+          "colName": "Internal_engagement_fatalities_x",
           "colType": "integer",
           "role": ["attribute"]
         },
@@ -100,7 +100,7 @@
         },
         {
           "colIndex": 14,
-          "colName": "Internal_engagement_fatalities.y",
+          "colName": "Internal_engagement_fatalities_y",
           "colType": "integer",
           "role": ["attribute"]
         },

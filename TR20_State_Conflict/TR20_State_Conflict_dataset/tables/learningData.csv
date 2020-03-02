@@ -1,4 +1,4 @@
-"d3mIndex","Country","Year","Month","Atrocities","Protest.Riot.Fatality","Internal_Force_Engagements","Internal_engagement_fatalities.x","Terrorism_Deaths","Terror_Attacks","Atrocity","Domestic_unrest","Internal_force_engagement50","Internal_force_engagement25","Internal_engagement_fatalities.y","Terrorism_fatalities","Terrorism_incidents","Terrorism","High_casualty_event"
+"d3mIndex","Country","Year","Month","Atrocities","Protest_Riot_Fatality","Internal_Force_Engagements","Internal_engagement_fatalities_x","Terrorism_Deaths","Terror_Attacks","Atrocity","Domestic_unrest","Internal_force_engagement50","Internal_force_engagement25","Internal_engagement_fatalities_y","Terrorism_fatalities","Terrorism_incidents","Terrorism","High_casualty_event"
 1,"Afghanistan",2017,1,54,0,320,1990,270,89,0,0,1,1,1,1,1,1,0
 2,"Afghanistan",2017,2,50,0,246,1533,225,81,0,0,1,1,1,1,1,1,0
 3,"Afghanistan",2017,3,127,0,372,2557,248,79,1,0,1,1,1,1,1,1,0
