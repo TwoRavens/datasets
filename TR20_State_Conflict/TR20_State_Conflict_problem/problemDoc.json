@@ -26,7 +26,7 @@
     ],
     "dataSplits": {
       "method": "holdOut",
-      "testSize": 0.2
+      "testSize": 0
     },
     "performanceMetrics": [
       {
