@@ -8,485 +8,645 @@
   },
   "dataResources": [
     {
-      "resID": "0",
+      "resID": "learningData",
       "resPath": "tables/learningData.csv",
       "resType": "table",
-      "resFormat": ["text/csv"],
+      "resFormat": [
+        "text/csv"
+      ],
       "isCollection": false,
       "columns": [
         {
           "colIndex": 0,
           "colName": "d3mIndex",
           "colType": "integer",
-          "role": ["index"]
+          "role": [
+            "index"
+          ]
         },
         {
           "colIndex": 1,
           "colName": "RegionName",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 2,
           "colName": "ZoneName",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 3,
           "colName": "WoredaName",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 4,
           "colName": "Year",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 5,
           "colName": "Epidemic_Week",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 6,
           "colName": "Month",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 7,
           "colName": "Total_Malaria_Confirmed_and_Clinical",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 8,
           "colName": "TMalaria_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 9,
           "colName": "TMalaria_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 10,
           "colName": "TMalaria_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 11,
           "colName": "TMSuspected_Fever_Examined",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 12,
           "colName": "PosMalaria_RDT_or_Microscopy_PF_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 13,
           "colName": "PosMalaria_RDT_or_Microscopy_PV_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 14,
           "colName": "Meningits_total_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 15,
           "colName": "Meningitis_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 16,
           "colName": "Meningitis_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 17,
           "colName": "Meningitis_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 18,
           "colName": "Dysentery_total_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 19,
           "colName": "Dysentery_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 20,
           "colName": "Dysentery_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 21,
           "colName": "Dysentery_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 22,
           "colName": "Typhoid_fever_Total_cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 23,
           "colName": "Typhoid_fever_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 24,
           "colName": "Typhoid_fever_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 25,
           "colName": "Typhoid_fever_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 26,
           "colName": "Relapsing_fever_total_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 27,
           "colName": "Relapsing_fever_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 28,
           "colName": "Relapsing_fever_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 29,
           "colName": "Relapsing_fever_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 30,
           "colName": "Epidemic_Typhus_Total_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 31,
           "colName": "Epidemic_Typhus_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 32,
           "colName": "Epidemic_Typhus_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 33,
           "colName": "Epidemic_Typhus_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 34,
           "colName": "Malnutrition_total_Cases",
           "colType": "integer",
-          "role": ["suggestedTarget"]
+          "role": [
+            "suggestedTarget"
+          ]
         },
         {
           "colIndex": 35,
           "colName": "Malnutrition_OutP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 36,
           "colName": "Malnutrition_InP_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 37,
           "colName": "Malnutrition_InP_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 38,
           "colName": "AFP_Polio_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 39,
           "colName": "AFP_Polio_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 40,
           "colName": "Anthrax_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 41,
           "colName": "Anthrax_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 42,
           "colName": "Cholera_AWD_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 43,
           "colName": "Cholera_AWD_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 44,
           "colName": "Dracunculiasis_Guinea_worm_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 45,
           "colName": "Dracunculiasis_Guinea_worm_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 46,
           "colName": "Measles_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 47,
           "colName": "Measles_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 48,
           "colName": "Neonatal_Tetanus_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 49,
           "colName": "Neonatal_Tetanus_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 50,
           "colName": "Pandemic_Influenza_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 51,
           "colName": "Pandemic_Influenza_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 52,
           "colName": "Rabies_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 53,
           "colName": "Rabies_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 54,
           "colName": "SARS_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 55,
           "colName": "SARS_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 56,
           "colName": "Small_pox_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 57,
           "colName": "Small_pox_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 58,
           "colName": "Viral_hemorrhagic_fever_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 59,
           "colName": "Viral_hemorrhagic_fever_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 60,
           "colName": "Yellow_fever_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 61,
           "colName": "Yellow_fever_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 62,
           "colName": "Maternal_Death",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 63,
           "colName": "Other_1_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 64,
           "colName": "Other_1_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 65,
           "colName": "Other_2_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 66,
           "colName": "Other_2_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 67,
           "colName": "Other_3_Cases",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 68,
           "colName": "Other_3_Deaths",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 69,
           "colName": "No_of_Gov_HPs_expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 70,
           "colName": "No_of_Gov_HCs_expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 71,
           "colName": "No_of_Gov_Hosps_expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 72,
           "colName": "No_of_NGOHF_expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 73,
           "colName": "No_of_OtherHFs_expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 74,
           "colName": "No_of_Gov_HPs_Reported",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 75,
           "colName": "No_of_Gov_HCs_Reported",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 76,
           "colName": "All_Total_sites_Reported",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 77,
           "colName": "All_Total_sites_Expected_by_RHB",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 78,
           "colName": "Total_Gov_sites_Reported",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         }
       ]
     }

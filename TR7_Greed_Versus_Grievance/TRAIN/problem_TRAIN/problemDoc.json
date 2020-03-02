@@ -17,7 +17,7 @@
         "targets": [
           {
             "targetIndex": 0,
-            "resID": "0",
+            "resID": "learningData",
             "colIndex": 2,
             "colName": "onset"
           }

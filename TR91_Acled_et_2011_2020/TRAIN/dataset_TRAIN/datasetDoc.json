@@ -8,149 +8,199 @@
   },
   "dataResources": [
     {
-      "resID": "0",
+      "resID": "learningData",
       "resPath": "tables/learningData.csv",
       "resType": "table",
-      "resFormat": ["text/csv"],
+      "resFormat": [
+        "text/csv"
+      ],
       "isCollection": false,
       "columns": [
         {
           "colIndex": 0,
           "colName": "d3mIndex",
           "colType": "integer",
-          "role": ["index"]
+          "role": [
+            "index"
+          ]
         },
         {
           "colIndex": 1,
           "colName": "EVENT_DATE",
           "colType": "categorical",
-          "role": ["attribute", "timeIndicator"]
+          "role": [
+            "attribute",
+            "timeIndicator"
+          ]
         },
         {
           "colIndex": 2,
           "colName": "TIME_PRECISION",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 3,
           "colName": "EVENT_TYPE",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 4,
           "colName": "SUB_EVENT_TYPE",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 5,
           "colName": "ACTOR1",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 6,
           "colName": "ASSOC_ACTOR_1",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 7,
           "colName": "INTER1",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 8,
           "colName": "ACTOR2",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 9,
           "colName": "ASSOC_ACTOR_2",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 10,
           "colName": "INTER2",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 11,
           "colName": "INTERACTION",
           "colType": "integer",
-          "role": ["suggestedTarget"]
+          "role": [
+            "suggestedTarget"
+          ]
         },
         {
           "colIndex": 12,
           "colName": "REGION",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 13,
           "colName": "ADMIN1",
           "colType": "categorical",
-          "role": ["attribute", "suggestedGroupingKey"]
+          "role": [
+            "attribute",
+            "suggestedGroupingKey"
+          ]
         },
         {
           "colIndex": 14,
           "colName": "ADMIN2",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 15,
           "colName": "ADMIN3",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 16,
           "colName": "LOCATION",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 17,
           "colName": "LATITUDE",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 18,
           "colName": "LONGITUDE",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 19,
           "colName": "GEO_PRECISION",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 20,
           "colName": "SOURCE",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 21,
           "colName": "SOURCE_SCALE",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 22,
           "colName": "FATALITIES",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         }
       ]
     }

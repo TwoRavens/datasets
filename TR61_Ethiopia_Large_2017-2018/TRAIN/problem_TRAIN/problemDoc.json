@@ -28,8 +28,8 @@
       "testSize": 0
     },
     "forecastingHorizon": {
-       "colName": "time",
-       "horizonValue": 5
+      "colName": "time",
+      "horizonValue": 5
     },
     "performanceMetrics": [
       {

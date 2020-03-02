@@ -8,365 +8,486 @@
   },
   "dataResources": [
     {
-      "resID": "0",
+      "resID": "learningData",
       "resPath": "tables/learningData.csv",
       "resType": "table",
-      "resFormat": ["text/csv"],
+      "resFormat": [
+        "text/csv"
+      ],
       "isCollection": false,
       "columns": [
         {
           "colIndex": 0,
           "colName": "d3mIndex",
           "colType": "integer",
-          "role": ["index"]
+          "role": [
+            "index"
+          ]
         },
         {
           "colIndex": 1,
           "colName": "X",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 2,
           "colName": "iso_code",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 3,
           "colName": "ISO2",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 4,
           "colName": "iso_num",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 5,
           "colName": "country",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 6,
           "colName": "year",
           "colType": "integer",
-          "role": ["attribute", "timeIndicator"]
+          "role": [
+            "attribute",
+            "timeIndicator"
+          ]
         },
         {
           "colIndex": 7,
           "colName": "datasource",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 8,
           "colName": "GDLCODE",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 9,
           "colName": "level",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 10,
           "colName": "region",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 11,
           "colName": "continent",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 12,
           "colName": "contin",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 13,
           "colName": "wrldreg",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 14,
           "colName": "dollarstreet",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 15,
           "colName": "dollarstlink",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 16,
           "colName": "N",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 17,
           "colName": "Nhh",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 18,
           "colName": "urban",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 19,
           "colName": "iwi_wealthindex",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 20,
           "colName": "iwi_lessthan70",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 21,
           "colName": "iwi_lessthan50",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 22,
           "colName": "iwi_lessthan35",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 23,
           "colName": "expected_yrs_educ",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 24,
           "colName": "eye_female",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 25,
           "colName": "eye_male",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 26,
           "colName": "tv",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 27,
           "colName": "phone",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 28,
           "colName": "motor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 29,
           "colName": "age_diff_marriage",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 30,
           "colName": "fertility_rate",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 31,
           "colName": "stunting",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 32,
           "colName": "stunting_moderate",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 33,
           "colName": "stunting_severe",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 34,
           "colName": "wasting",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 35,
           "colName": "wasting_moderate",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 36,
           "colName": "wasting_severe",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 37,
           "colName": "bcg_vacc_age1",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 38,
           "colName": "dtp1_vacc_age1",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 39,
           "colName": "dtp2_vacc_age1",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 40,
           "colName": "dtp3_vacc_age1",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 41,
           "colName": "measl_vacc_age1",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 42,
           "colName": "pop_mill",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 43,
           "colName": "pop_natl_share",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 44,
           "colName": "household_size",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 45,
           "colName": "depend_ratio",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 46,
           "colName": "youth_depr",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 47,
           "colName": "old_depr",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 48,
           "colName": "dwindowphase",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 49,
           "colName": "pop_pct_u15",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 50,
           "colName": "pop_pct_work_age",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 51,
           "colName": "pop_pct_o65",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 52,
           "colName": "inf_mort",
           "colType": "real",
-          "role": ["suggestedTarget"]
+          "role": [
+            "suggestedTarget"
+          ]
         },
         {
           "colIndex": 53,
           "colName": "u5_mort",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 54,
           "colName": "pct_hh_electricity",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 55,
           "colName": "pct_smallhouse",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 56,
           "colName": "pct_modsizehouse",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 57,
           "colName": "pct_largehouse",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 58,
           "colName": "pct_cookwood",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         }
       ]
     }

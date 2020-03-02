@@ -8,863 +8,1151 @@
   },
   "dataResources": [
     {
-      "resID": "0",
+      "resID": "learningData",
       "resPath": "tables/learningData.csv",
       "resType": "table",
-      "resFormat": ["text/csv"],
+      "resFormat": [
+        "text/csv"
+      ],
       "isCollection": false,
       "columns": [
         {
           "colIndex": 0,
           "colName": "d3mIndex",
           "colType": "integer",
-          "role": ["index"]
+          "role": [
+            "index"
+          ]
         },
         {
           "colIndex": 1,
           "colName": "time",
           "colType": "categorical",
-          "role": ["attribute", "timeIndicator"]
+          "role": [
+            "attribute",
+            "timeIndicator"
+          ]
         },
         {
           "colIndex": 2,
           "colName": "woreda_wikidata",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 3,
           "colName": "woreda_label",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 4,
           "colName": "zone_wikidata",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 5,
           "colName": "zone_label",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 6,
           "colName": "region_wikidata",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 7,
           "colName": "region_label",
           "colType": "categorical",
-          "role": ["attribute", "suggestedGroupingKey"]
+          "role": [
+            "attribute",
+            "suggestedGroupingKey"
+          ]
         },
         {
           "colIndex": 8,
           "colName": "country_wikidata",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 9,
           "colName": "country_label",
           "colType": "categorical",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 10,
           "colName": "Prices_of_Diesel__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 11,
           "colName": "Prices_of_Domestic_sheep__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 12,
           "colName": "Prices_of_Gasoline__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 13,
           "colName": "Prices_of_Goat__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 14,
           "colName": "Prices_of_Kerosene__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 15,
           "colName": "Prices_of_Maize__retail_",
           "colType": "real",
-          "role": ["suggestedTarget"]
+          "role": [
+            "suggestedTarget"
+          ]
         },
         {
           "colIndex": 16,
           "colName": "Prices_of_Maize__wholesale_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 17,
           "colName": "Prices_of_Rice__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 18,
           "colName": "Prices_of_Sorghum__wholesale_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 19,
           "colName": "Prices_of_Milk__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 20,
           "colName": "Prices_of_Pasta__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 21,
           "colName": "Prices_of_Sorghum__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 22,
           "colName": "Prices_of_Sugar__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 23,
           "colName": "Prices_of_Wheat__retail_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 24,
           "colName": "Prices_of_Wheat__wholesale_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 25,
           "colName": "Prices_of_Wheat_flour__retail_",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 26,
           "colName": "AFP_Polio_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 27,
           "colName": "Cholera_AWD_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 28,
           "colName": "Dysentery_total_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 29,
           "colName": "Epidemic_Typhus_Total_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 30,
           "colName": "Malnutrition_total_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 31,
           "colName": "Maternal_Death_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 32,
           "colName": "Measles_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 33,
           "colName": "Total_Malaria_Confirmed_and_Clinical_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 34,
           "colName": "Typhoid_fever_OutP_Cases_ratio_per_1000",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 35,
           "colName": "precipitation_height",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 36,
           "colName": "X2_year_flood_flood_duration_in_a_month",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 37,
           "colName": "X5_year_flood_flood_duration_in_a_month",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 38,
           "colName": "X20_year_flood_flood_duration_in_a_month",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 39,
           "colName": "Average_person_per_Room",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 40,
           "colName": "Average_room_per_household",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 41,
           "colName": "Dependency_Ratio",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 42,
           "colName": "Female_Population",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 43,
           "colName": "Household_size",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 44,
           "colName": "Male_Population",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 45,
           "colName": "Percent_share_of__households_that_use_gas__biogas_and_other_types_of_fuels",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 46,
           "colName": "Percent_share_of__total_migrant_with_duration_of_stay_above_4_and_less_than_10_years",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 47,
           "colName": "Percent_share_of_all_accidents___The_sum_of_car_accidents_and_other_accidents",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 48,
           "colName": "Percent_share_of_all_illnesses___The_sum_of_hanson_disease_and_other_illness_types",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 49,
           "colName": "Percent_share_of_blind",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 50,
           "colName": "Percent_share_of_domestic_workers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 51,
           "colName": "Percent_share_of_female_domestic_workers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 52,
           "colName": "Percent_share_of_female_employed_by_government_and_parastatal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 53,
           "colName": "Percent_share_of_female_engaged_in_other_type_of_employment",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 54,
           "colName": "Percent_share_of_female_engaged_in_unpaid_family_work",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 55,
           "colName": "Percent_share_of_female_privately_employed_and_employers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 56,
           "colName": "Percent_share_of_female_self_employed",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 57,
           "colName": "Percent_share_of_households_having_no_toilet_facility",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 58,
           "colName": "Percent_share_of_households_having_private_VIP_latrine_toilet_facility",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 59,
           "colName": "Percent_share_of_households_having_private_pit_latrine_toilet_facility",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 60,
           "colName": "Percent_share_of_households_having_shared_VIP_latrine_toilet_facility",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 61,
           "colName": "Percent_share_of_households_having_shared_pit_latrine_toilet_facility",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 62,
           "colName": "Percent_share_of_households_that_obtain_drinking_water_from_protected_well",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 63,
           "colName": "Percent_share_of_households_that_obtain_drinking_water_from_river_lake_pond",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 64,
           "colName": "Percent_share_of_households_that_obtain_drinking_water_from_tap_inside_compound",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 65,
           "colName": "Percent_share_of_households_that_obtain_drinking_water_from_tap_outside_compound",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 66,
           "colName": "Percent_share_of_households_that_obtain_drinking_water_from_unprotected_well_or_spring",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 67,
           "colName": "Percent_share_of_households_that_use_burning__burying_for_waste_disposal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 68,
           "colName": "Percent_share_of_households_that_use_dumping_in_river_for_waste_disposal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 69,
           "colName": "Percent_share_of_households_that_use_municipality_collector_services__public_dump__for_waste_disposal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 70,
           "colName": "Percent_share_of_households_that_use_open_space_behind_the_housing_unit_for_waste_disposal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 71,
           "colName": "Percent_share_of_households_that_use_private_establishments_individuals_services_for_waste_disposal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 72,
           "colName": "Percent_share_of_houses_having_cement_screed_cement_screed_not_applied_floor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 73,
           "colName": "Percent_share_of_houses_having_cement_tile_brick_tile_floor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 74,
           "colName": "Percent_share_of_houses_having_corrugated_iron_sheet_roofs",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 75,
           "colName": "Percent_share_of_houses_having_mud_floor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 76,
           "colName": "Percent_share_of_houses_having_plastered_hollow_blocks_wall",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 77,
           "colName": "Percent_share_of_houses_having_plastic_shera_roofs",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 78,
           "colName": "Percent_share_of_houses_having_reed_bamboo_floor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 79,
           "colName": "Percent_share_of_houses_having_reed_bamboo_roofs",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 80,
           "colName": "Percent_share_of_houses_having_reed_bamboo_wall",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 81,
           "colName": "Percent_share_of_houses_having_roofs_made_of_other_materials",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 82,
           "colName": "Percent_share_of_houses_having_stone_and_mud_wall",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 83,
           "colName": "Percent_share_of_houses_having_thatch_roofs",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 84,
           "colName": "Percent_share_of_houses_having_walls_made_of_other_materials",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 85,
           "colName": "Percent_share_of_houses_having_wood_and_mud_roofs",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 86,
           "colName": "Percent_share_of_houses_having_wood_and_mud_wall",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 87,
           "colName": "Percent_share_of_houses_having_wood_and_thatch_wood_only_wall",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 88,
           "colName": "Percent_share_of_houses_having_wood_planks_floor",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 89,
           "colName": "Percent_share_of_male_domestic_workers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 90,
           "colName": "Percent_share_of_male_employed_by_government_and_parastatal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 91,
           "colName": "Percent_share_of_male_engaged_in_other_type_of_employment",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 92,
           "colName": "Percent_share_of_male_engaged_in_unpaid_family_work",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 93,
           "colName": "Percent_share_of_male_privately_employed_and_employers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 94,
           "colName": "Percent_share_of_male_self_employed",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 95,
           "colName": "Percent_share_of_migrant_aged_18_years_and_above",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 96,
           "colName": "Percent_share_of_migrant_aged_under_18_years",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 97,
           "colName": "Percent_share_of_other_disability_types",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 98,
           "colName": "Percent_share_of_others_total___The_sum_of_other__not_known_and_not_available_causes_of_disabilities",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 99,
           "colName": "Percent_share_of_partially_blind__Seeing_difficulty__",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 100,
           "colName": "Percent_share_of_partially_deaf__Hearing_difficulty__",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 101,
           "colName": "Percent_share_of_people_employed_by_government_and_parastatal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 102,
           "colName": "Percent_share_of_people_engaged_in_unpaid_family_work",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 103,
           "colName": "Percent_share_of_polio",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 104,
           "colName": "Percent_share_of_population_10_to_19_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 105,
           "colName": "Percent_share_of_population_20_to_29_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 106,
           "colName": "Percent_share_of_population_30_to_39_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 107,
           "colName": "Percent_share_of_population_40_to_49_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 108,
           "colName": "Percent_share_of_population_having_lower_limbs_injury__Non_functional_lower_limbs__standing__walking_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 109,
           "colName": "Percent_share_of_population_over_49_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 110,
           "colName": "Percent_share_of_population_zero_to_9_years_old",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 111,
           "colName": "Percent_share_of_prenatal",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 112,
           "colName": "Percent_share_of_privately_employed_and_employers",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 113,
           "colName": "Percent_share_of_rural_households_that_use_biogas_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 114,
           "colName": "Percent_share_of_rural_households_that_use_charcoal_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 115,
           "colName": "Percent_share_of_rural_households_that_use_dung_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 116,
           "colName": "Percent_share_of_rural_households_that_use_electricity__gas_and_other_types_of_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 117,
           "colName": "Percent_share_of_rural_households_that_use_firewood_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 118,
           "colName": "Percent_share_of_rural_households_that_use_kerosene_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 119,
           "colName": "Percent_share_of_self_employed_people",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 120,
           "colName": "Percent_share_of_total_households_that_use_charcoal_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 121,
           "colName": "Percent_share_of_total_households_that_use_dung_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 122,
           "colName": "Percent_share_of_total_households_that_use_electricity_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 123,
           "colName": "Percent_share_of_total_households_that_use_firewood_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 124,
           "colName": "Percent_share_of_total_households_that_use_kerosene_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 125,
           "colName": "Percent_share_of_total_migrant_with_duration_of_stay_10_years_and_above",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 126,
           "colName": "Percent_share_of_upper_limbs_injury__Non_functional_upper_limbs__gripping__handling_",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 127,
           "colName": "Percent_share_of_urban_households_that_use__gas__biogas_and_other_types_of_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 128,
           "colName": "Percent_share_of_urban_households_that_use_charcoal_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 129,
           "colName": "Percent_share_of_urban_households_that_use_dung_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 130,
           "colName": "Percent_share_of_urban_households_that_use_electricity_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 131,
           "colName": "Percent_share_of_urban_households_that_use_firewood_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 132,
           "colName": "Percent_share_of_urban_households_that_use_kerosene_for_fuel",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 133,
           "colName": "Percent_share_of_war_and_mines_injury",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 134,
           "colName": "Population_density",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 135,
           "colName": "Sex_Ratio",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 136,
           "colName": "Total_Population",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 137,
           "colName": "Total_migrant",
           "colType": "integer",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 138,
           "colName": "Unemployment_rate",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 139,
           "colName": "Urban_unemployment_rate",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 140,
           "colName": "Protected_Water",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         },
         {
           "colIndex": 141,
           "colName": "Unprotected_Water",
           "colType": "real",
-          "role": ["attribute"]
+          "role": [
+            "attribute"
+          ]
         }
       ]
     }
