@@ -1,0 +1,40 @@
+{
+  "about": {
+    "problemID": "TR102_Northern_Ireland_problem",
+    "problemName": "Political Violence Northern Ireland",
+    "problemDescription": "Counts of deaths in Northern Ireland, 1969-2001",
+    "taskKeywords": [
+      "regression",
+      ""
+    ],
+    "problemVersion": "4.0.0",
+    "problemSchemaVersion": "4.0.0"
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "Political Violence Northern Ireland_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 4,
+            "colName": "republican"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2
+    },
+    "performanceMetrics": [
+      {
+        "metric": "rootMeanSquaredError"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
