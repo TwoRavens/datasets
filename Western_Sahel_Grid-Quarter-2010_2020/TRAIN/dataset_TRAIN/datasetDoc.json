@@ -1,0 +1,1034 @@
+{
+  "about": {
+    "datasetSchemaVersion": "4.1.0",
+    "datasetID": "western_sahel_grid_quarter_2010_2020",
+    "datasetName": "Western Sahel Grid Quarter, 2010-2020",
+    "digest": "b85aeefeaacbc3d8d4c21ed10beaa7bf7387acd8adf776d9f5204917213e1a44",
+    "approximateSize": "5 MB"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "isCollection": false,
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "resType": "table",
+      "columnsCount": 36,
+      "resPath": "tables/learningData.csv",
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "role": [
+            "index"
+          ],
+          "colType": "integer"
+        },
+        {
+          "colIndex": 1,
+          "colName": "country_name",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 2,
+          "colName": "yearmo",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 3,
+          "colName": "acled_count_pr",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 4,
+          "colName": "ged_best_ns",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 5,
+          "colName": "ged_best_sb",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 6,
+          "colName": "pg_id",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 7,
+          "colName": "pgd_excluded",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 8,
+          "colName": "pgd_agri_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 9,
+          "colName": "pgd_urban_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 10,
+          "colName": "pgd_water_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 11,
+          "colName": "pgd_shrub_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 12,
+          "colName": "pgd_savanna_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 13,
+          "colName": "pgd_pasture_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 14,
+          "colName": "pgd_nlights_calib_mean",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 15,
+          "colName": "pgd_grass_ih",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 16,
+          "colName": "pgd_petroleum",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 17,
+          "colName": "pgd_capdist",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 18,
+          "colName": "pgd_imr_mean",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 19,
+          "colName": "ln_fvp_population200",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 20,
+          "colName": "spei_1",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 21,
+          "colName": "spei_12",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 22,
+          "colName": "spei_3",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 23,
+          "colName": "pgd_xcoord",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 24,
+          "colName": "pgd_ycoord",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 25,
+          "colName": "year",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 26,
+          "colName": "month",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 27,
+          "colName": "log_violence",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 28,
+          "colName": "log_ged_best_ns",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 29,
+          "colName": "log_ged_best_sb",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 30,
+          "colName": "lead_log_violence",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 31,
+          "colName": "lead_log_ged_ns",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 32,
+          "colName": "lead_log_ged_sb",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 33,
+          "colName": "grid_violence",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 34,
+          "colName": "log_ns_country",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 35,
+          "colName": "log_sb_country",
+          "role": [],
+          "colType": "unknown"
+        }
+      ]
+    }
+  ],
+  "qualities": [
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "schema": "https://metadata.datadrivendiscovery.org/schemas/v0/container.json",
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'd3m.container.dataset.Dataset'>",
+          "value": "gANjZDNtLmNvbnRhaW5lci5kYXRhc2V0CkRhdGFzZXQKcQAu"
+        },
+        "id": "western_sahel_grid_quarter_2010_2020",
+        "name": "Western Sahel Grid Quarter, 2010-2020",
+        "location_uris": {
+          "encoding": "pickle",
+          "description": "__NO_VALUE__",
+          "value": "gANjZDNtLm1ldGFkYXRhLmJhc2UKX3JldHVybl9ub192YWx1ZQpxAClScQEu"
+        },
+        "dimension": {
+          "name": "resources",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/DatasetResource"
+          ],
+          "length": 1
+        },
+        "stored_size": 5693451,
+        "digest": {
+          "encoding": "pickle",
+          "description": "__NO_VALUE__",
+          "value": "gANjZDNtLm1ldGFkYXRhLmJhc2UKX3JldHVybl9ub192YWx1ZQpxAClScQEu"
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": ""
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'd3m.container.pandas.DataFrame'>",
+          "value": "gANjZDNtLmNvbnRhaW5lci5wYW5kYXMKRGF0YUZyYW1lCnEALg=="
+        },
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/Table",
+          "https://metadata.datadrivendiscovery.org/types/DatasetEntryPoint"
+        ],
+        "dimension": {
+          "name": "rows",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/TabularRow"
+          ],
+          "length": 18348
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": []
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "dimension": {
+          "name": "columns",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/TabularColumn"
+          ],
+          "length": 36
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__"
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'str'>",
+          "value": "gANjYnVpbHRpbnMKc3RyCnEALg=="
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            "__ALL_ELEMENTS__"
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "d3mIndex",
+        "semantic_types": [
+          "http://schema.org/Integer",
+          "https://metadata.datadrivendiscovery.org/types/PrimaryKey"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "country_name",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "yearmo",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "acled_count_pr",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            3
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "ged_best_ns",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            4
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "ged_best_sb",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            5
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pg_id",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            6
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_excluded",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            7
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_agri_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            8
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_urban_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            9
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_water_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            10
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_shrub_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            11
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_savanna_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            12
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_pasture_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            13
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_nlights_calib_mean",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            14
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_grass_ih",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            15
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_petroleum",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            16
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_capdist",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            17
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_imr_mean",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            18
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "ln_fvp_population200",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            19
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "spei_1",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            20
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "spei_12",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            21
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "spei_3",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            22
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_xcoord",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            23
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "pgd_ycoord",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            24
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "year",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            25
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "month",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            26
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "log_violence",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            27
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "log_ged_best_ns",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            28
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "log_ged_best_sb",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            29
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "lead_log_violence",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            30
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "lead_log_ged_ns",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            31
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "lead_log_ged_sb",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            32
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "grid_violence",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            33
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "log_ns_country",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            34
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "log_sb_country",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            35
+          ]
+        }
+      }
+    }
+  ]
+}
