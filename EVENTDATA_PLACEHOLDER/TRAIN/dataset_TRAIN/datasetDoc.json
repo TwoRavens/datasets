@@ -1,0 +1,606 @@
+{
+  "about": {
+    "datasetSchemaVersion": "4.1.0",
+    "datasetID": "evt_data_placeholder",
+    "datasetName": "Event Data Placeholder (temp to have a D3M config)",
+    "digest": "f16072ab0a2e970815ed313ddf4e862b5ec70b45c140ec87cb5bf8b08de04aa5",
+    "approximateSize": "1 KB"
+  },
+  "dataResources": [
+    {
+      "resID": "learningData",
+      "isCollection": false,
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "resType": "table",
+      "columnsCount": 19,
+      "resPath": "tables/learningData.csv",
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 1,
+          "colName": "Player",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 2,
+          "colName": "Number_seasons",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 3,
+          "colName": "Games_played",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 4,
+          "colName": "At_bats",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 5,
+          "colName": "Runs",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 6,
+          "colName": "Hits",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 7,
+          "colName": "Doubles",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 8,
+          "colName": "Triples",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 9,
+          "colName": "Home_runs",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 10,
+          "colName": "RBIs",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 11,
+          "colName": "Walks",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 12,
+          "colName": "Strikeouts",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 13,
+          "colName": "Batting_average",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 14,
+          "colName": "On_base_pct",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 15,
+          "colName": "Slugging_pct",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 16,
+          "colName": "Fielding_ave",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 17,
+          "colName": "Position",
+          "role": [],
+          "colType": "unknown"
+        },
+        {
+          "colIndex": 18,
+          "colName": "Hall_of_Fame",
+          "role": [],
+          "colType": "unknown"
+        }
+      ]
+    }
+  ],
+  "qualities": [
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "schema": "https://metadata.datadrivendiscovery.org/schemas/v0/container.json",
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'd3m.container.dataset.Dataset'>",
+          "value": "gANjZDNtLmNvbnRhaW5lci5kYXRhc2V0CkRhdGFzZXQKcQAu"
+        },
+        "id": "evt_data_placeholder",
+        "name": "Event Data Placeholder (temp to have a D3M config)",
+        "location_uris": {
+          "encoding": "pickle",
+          "description": "__NO_VALUE__",
+          "value": "gANjZDNtLm1ldGFkYXRhLmJhc2UKX3JldHVybl9ub192YWx1ZQpxAClScQEu"
+        },
+        "dimension": {
+          "name": "resources",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/DatasetResource"
+          ],
+          "length": 1
+        },
+        "stored_size": 1520,
+        "digest": {
+          "encoding": "pickle",
+          "description": "__NO_VALUE__",
+          "value": "gANjZDNtLm1ldGFkYXRhLmJhc2UKX3JldHVybl9ub192YWx1ZQpxAClScQEu"
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": ""
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'd3m.container.pandas.DataFrame'>",
+          "value": "gANjZDNtLmNvbnRhaW5lci5wYW5kYXMKRGF0YUZyYW1lCnEALg=="
+        },
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/Table",
+          "https://metadata.datadrivendiscovery.org/types/DatasetEntryPoint"
+        ],
+        "dimension": {
+          "name": "rows",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/TabularRow"
+          ],
+          "length": 12
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": []
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "dimension": {
+          "name": "columns",
+          "semantic_types": [
+            "https://metadata.datadrivendiscovery.org/types/TabularColumn"
+          ],
+          "length": 19
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__"
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "structural_type": {
+          "encoding": "pickle",
+          "description": "<class 'str'>",
+          "value": "gANjYnVpbHRpbnMKc3RyCnEALg=="
+        }
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            "__ALL_ELEMENTS__"
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "d3mIndex",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            0
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Player",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            1
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Number_seasons",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            2
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Games_played",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            3
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "At_bats",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            4
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Runs",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            5
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Hits",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            6
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Doubles",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            7
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Triples",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            8
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Home_runs",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            9
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "RBIs",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            10
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Walks",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            11
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Strikeouts",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            12
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Batting_average",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            13
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "On_base_pct",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            14
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Slugging_pct",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            15
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Fielding_ave",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            16
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Position",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            17
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "Hall_of_Fame",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            18
+          ]
+        }
+      }
+    }
+  ]
+}
