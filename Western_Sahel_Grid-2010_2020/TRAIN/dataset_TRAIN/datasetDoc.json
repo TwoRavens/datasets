@@ -3,8 +3,8 @@
     "datasetSchemaVersion": "4.1.0",
     "datasetID": "western_sahel_grid_2010_2020",
     "datasetName": "Western Sahel Grid, 2010-2020",
-    "digest": "3fd915ff4bbafd20ea7af8167d5f93ab8e52116c90f52636f8b51385d344e49f",
-    "approximateSize": "423 KB"
+    "digest": "351399f60537458ddf75945df6860365a21feb8ff026ad2b149c7e3dacd1ae05",
+    "approximateSize": "426 KB"
   },
   "dataResources": [
     {
@@ -16,7 +16,7 @@
         ]
       },
       "resType": "table",
-      "columnsCount": 22,
+      "columnsCount": 23,
       "resPath": "tables/learningData.csv",
       "columns": [
         {
@@ -152,6 +152,12 @@
           "colName": "grid_violence",
           "role": [],
           "colType": "unknown"
+        },
+        {
+          "colIndex": 22,
+          "colName": "any_violence",
+          "role": [],
+          "colType": "unknown"
         }
       ]
     }
@@ -180,7 +186,7 @@
           ],
           "length": 1
         },
-        "stored_size": 423127,
+        "stored_size": 426770,
         "digest": {
           "encoding": "pickle",
           "description": "__NO_VALUE__",
@@ -228,7 +234,7 @@
           "semantic_types": [
             "https://metadata.datadrivendiscovery.org/types/TabularColumn"
           ],
-          "length": 22
+          "length": 23
         }
       },
       "qualValueType": "dict",
@@ -676,6 +682,25 @@
           "selector": [
             "__ALL_ELEMENTS__",
             21
+          ]
+        }
+      }
+    },
+    {
+      "qualName": "metadata",
+      "qualValue": {
+        "name": "any_violence",
+        "semantic_types": [
+          "https://metadata.datadrivendiscovery.org/types/UnknownType"
+        ]
+      },
+      "qualValueType": "dict",
+      "restrictedTo": {
+        "resID": "learningData",
+        "resComponent": {
+          "selector": [
+            "__ALL_ELEMENTS__",
+            22
           ]
         }
       }
