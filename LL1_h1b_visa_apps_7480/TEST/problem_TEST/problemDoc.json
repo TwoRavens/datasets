@@ -1,0 +1,63 @@
+{
+  "about": {
+    "problemID": "LL1_h1b_visa_apps_7480_problem",
+    "problemName": "LL1 h1b visa apps problem",
+    "problemDescription": "This is multiclass classification problem defined on a h1b visa applications datasets released by the Dept. of Labor. It has a large number of categorical columns and some of them have a high cardinality.",
+    "problemSchemaVersion": "4.0.0",
+    "problemVersion": "1.0.0",
+    "taskKeywords": [
+      "classification",
+      "multiClass",
+      "tabular"
+    ]
+  },
+  "inputs": {
+    "data": [
+      {
+        "datasetID": "LL1_h1b_visa_apps_7480_dataset",
+        "targets": [
+          {
+            "targetIndex": 0,
+            "resID": "learningData",
+            "colIndex": 1,
+            "colName": "CASE_STATUS"
+          }
+        ]
+      }
+    ],
+    "dataSplits": {
+      "method": "holdOut",
+      "testSize": 0.2,
+      "stratified": true,
+      "splitsFile": "dataSplits.csv",
+      "datasetViewMaps": {
+        "train": [
+          {
+            "from": "LL1_h1b_visa_apps_7480_dataset",
+            "to": "LL1_h1b_visa_apps_7480_dataset_TRAIN"
+          }
+        ],
+        "test": [
+          {
+            "from": "LL1_h1b_visa_apps_7480_dataset",
+            "to": "LL1_h1b_visa_apps_7480_dataset_TEST"
+          }
+        ],
+        "score": [
+          {
+            "from": "LL1_h1b_visa_apps_7480_dataset",
+            "to": "LL1_h1b_visa_apps_7480_dataset_SCORE"
+          }
+        ]
+      }
+    },
+    "performanceMetrics": [
+      {
+        "metric": "f1Macro"
+      }
+    ]
+  },
+  "expectedOutputs": {
+    "predictionsFile": "predictions.csv"
+  }
+}
