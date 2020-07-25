@@ -1,0 +1,61 @@
+{
+  "about": {
+    "datasetID": "JIDO_SOHR_Tab_Articles_8569_dataset_TEST",
+    "datasetName": "jido sohr",
+    "description": "This dataset contains articles describing events involving terrorist activities.The articles were collected from the Syrian Observatory for Human Rights (SOHR). The articles are each associated with a binary label indicating if the events are of interest (1) or are to be ignored (0).",
+    "citation": "",
+    "license": "open",
+    "source": "JIDO SOHR",
+    "sourceURI": "",
+    "redacted": false,
+    "datasetSchemaVersion": "4.0.0",
+    "datasetVersion": "4.0.0",
+    "digest": "2a2459ab3912639f5a69bc8b9d59a7b5f791d08e08f9ff0c4f9e1323c940a9ad"
+  },
+  "dataResources": [
+    {
+      "resID": "articles",
+      "resPath": "media/",
+      "resType": "text",
+      "resFormat": {
+        "text/plain": [
+          "txt"
+        ]
+      },
+      "isCollection": true
+    },
+    {
+      "resID": "learningData",
+      "resPath": "tables/learningData.csv",
+      "resType": "table",
+      "resFormat": {
+        "text/csv": [
+          "csv"
+        ]
+      },
+      "columns": [
+        {
+          "colIndex": 0,
+          "colName": "d3mIndex",
+          "colType": "integer",
+          "role": [
+            "index"
+          ]
+        },
+        {
+          "colIndex": 39,
+          "colName": "article",
+          "colType": "string",
+          "role": [
+            "attribute"
+          ],
+          "refersTo": {
+            "resID": "articles",
+            "resObject": "item"
+          }
+        }
+      ],
+      "columnsCount": 40
+    }
+  ]
+}

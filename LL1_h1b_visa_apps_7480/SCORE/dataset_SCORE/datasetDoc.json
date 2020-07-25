@@ -1,13 +1,13 @@
 {
   "about": {
-    "datasetID": "LL1_h1b_visa_apps_7480_dataset_TRAIN",
+    "datasetID": "LL1_h1b_visa_apps_7480_dataset_SCORE",
     "datasetName": "LL1 h1b visa apps dataset",
     "description": "This is a h1b visa applications datasets released by the Dept. of Labor. It has a large number of categorical columns and some of them have a high cardinality.",
     "license": "Public Domain Copyright Trademark & Patent Information Schedule (https://www.dol.gov/general/aboutdol/copyright)",
     "source": "U.S. Department of Labor",
     "datasetSchemaVersion": "4.0.0",
     "datasetVersion": "1.0",
-    "digest": "33aa66463661ed444a9dd08ea13200600f711e7536dc0bdc6c9bc359b0aceb66"
+    "digest": "7e14a39a2aa9a1365da23999e2a1408ba4b1f6897d8311959d0626cb3459f0e2"
   },
   "dataResources": [
     {
