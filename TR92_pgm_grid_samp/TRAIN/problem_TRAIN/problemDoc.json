@@ -1,0 +1,54 @@
+{
+    "about": {
+        "problemID": "TR92_pgm_grid_samp_problem_TRAIN",
+        "problemName": "TR92_pgm_grid_samp problem",
+        "taskKeywords": [
+            "classification",
+            "binary"
+        ],
+        "problemSchemaVersion": "4.0.0",
+        "problemVersion": "1.0"
+    },
+    "inputs": {
+        "data": [
+            {
+                "datasetID": "TR92_pgm_grid_samp",
+                "targets": [
+                    {
+                        "targetIndex": 0,
+                        "resID": "learningData",
+                        "colIndex": 22,
+                        "colName": "any_violence"
+                    }
+                ]
+            }
+        ],
+        "dataSplits": {
+            "method": "holdOut",
+            "testSize": 0.35,
+            "stratified": false,
+            "numRepeats": 0,
+            "splitsFile": "dataSplits.csv"
+        },
+        "performanceMetrics": [
+            {
+                "metric": "rocAuc"
+            },
+            {
+                "metric": "accuracy"
+            },
+            {
+                "metric": "precision"
+            },
+            {
+                "metric": "recall"
+            },
+            {
+                "metric": "f1"
+            }
+        ],
+        "expectedOutputs": {
+            "predictionsFile": "predictions.csv"
+        }
+    }
+}

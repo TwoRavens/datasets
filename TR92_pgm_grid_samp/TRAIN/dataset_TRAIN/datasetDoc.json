@@ -1,0 +1,216 @@
+{
+    "about": {
+        "datasetID": "TR92_pgm_grid_samp",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "d406812a66c5748f16cb1c02a774e021a172e75f2656013d041e41ff9814d1fc",
+        "datasetName": "TR92_pgm_grid_samp"
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": {
+                "text/csv": [
+                    "csv"
+                ]
+            },
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "pg_id",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "pgd_excluded",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 3,
+                    "colName": "pgd_agri_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 4,
+                    "colName": "pgd_urban_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 5,
+                    "colName": "pgd_water_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 6,
+                    "colName": "pgd_shrub_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 7,
+                    "colName": "pgd_savanna_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 8,
+                    "colName": "pgd_pasture_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 9,
+                    "colName": "pgd_nlights_calib_mean",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 10,
+                    "colName": "pgd_grass_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 11,
+                    "colName": "pgd_petroleum",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 12,
+                    "colName": "pgd_capdist",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 13,
+                    "colName": "pgd_imr_mean",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 14,
+                    "colName": "ln_fvp_population200",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 15,
+                    "colName": "spei_1",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 16,
+                    "colName": "spei_12",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 17,
+                    "colName": "spei_3",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 18,
+                    "colName": "pgd_xcoord",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 19,
+                    "colName": "pgd_ycoord",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 20,
+                    "colName": "country_name",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 21,
+                    "colName": "grid_violence",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 22,
+                    "colName": "any_violence",
+                    "colType": "integer",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                },
+                {
+                    "colIndex": 23,
+                    "colName": "violence_category",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "about": {
+        "problemID": "TR93_pgm_quarterly_problem_TRAIN",
+        "problemName": "TR93_pgm_quarterly problem",
+        "taskKeywords": [
+            "regression"
+        ],
+        "problemSchemaVersion": "4.0.0",
+        "problemVersion": "1.0"
+    },
+    "inputs": {
+        "data": [
+            {
+                "datasetID": "TR93_pgm_quarterly",
+                "targets": [
+                    {
+                        "targetIndex": 0,
+                        "resID": "learningData",
+                        "colIndex": 30,
+                        "colName": "lead_log_violence"
+                    }
+                ]
+            }
+        ],
+        "dataSplits": {
+            "method": "holdOut",
+            "testSize": 0.35,
+            "stratified": false,
+            "numRepeats": 0,
+            "splitsFile": "dataSplits.csv"
+        },
+        "performanceMetrics": [
+            {
+                "metric": "meanSquaredError"
+            }
+        ],
+        "expectedOutputs": {
+            "predictionsFile": "predictions.csv"
+        }
+    }
+}

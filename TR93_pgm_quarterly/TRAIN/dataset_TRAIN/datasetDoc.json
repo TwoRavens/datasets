@@ -1,0 +1,313 @@
+{
+    "about": {
+        "datasetID": "TR93_pgm_quarterly",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "cc31910935b17e6f5084f2cbf986dde429aa520caa882727540cb3c3c3b43cb2",
+        "datasetName": "TR93_pgm_quarterly"
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": {
+                "text/csv": [
+                    "csv"
+                ]
+            },
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "country_name",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "yearmo",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 3,
+                    "colName": "acled_count_pr",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 4,
+                    "colName": "ged_best_ns",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 5,
+                    "colName": "ged_best_sb",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 6,
+                    "colName": "pg_id",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 7,
+                    "colName": "pgd_excluded",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 8,
+                    "colName": "pgd_agri_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 9,
+                    "colName": "pgd_urban_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 10,
+                    "colName": "pgd_water_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 11,
+                    "colName": "pgd_shrub_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 12,
+                    "colName": "pgd_savanna_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 13,
+                    "colName": "pgd_pasture_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 14,
+                    "colName": "pgd_nlights_calib_mean",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 15,
+                    "colName": "pgd_grass_ih",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 16,
+                    "colName": "pgd_petroleum",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 17,
+                    "colName": "pgd_capdist",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 18,
+                    "colName": "pgd_imr_mean",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 19,
+                    "colName": "ln_fvp_population200",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 20,
+                    "colName": "spei_1",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 21,
+                    "colName": "spei_12",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 22,
+                    "colName": "spei_3",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 23,
+                    "colName": "pgd_xcoord",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 24,
+                    "colName": "pgd_ycoord",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 25,
+                    "colName": "year",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 26,
+                    "colName": "month",
+                    "colType": "integer",
+                    "role": [
+                        "attribute",
+                        "timeIndicator"
+                    ]
+                },
+                {
+                    "colIndex": 27,
+                    "colName": "log_violence",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 28,
+                    "colName": "log_ged_best_ns",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 29,
+                    "colName": "log_ged_best_sb",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 30,
+                    "colName": "lead_log_violence",
+                    "colType": "real",
+                    "role": [
+                        "suggestedTarget"
+                    ]
+                },
+                {
+                    "colIndex": 31,
+                    "colName": "lead_log_ged_ns",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 32,
+                    "colName": "lead_log_ged_sb",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 33,
+                    "colName": "grid_violence",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 34,
+                    "colName": "log_ns_country",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 35,
+                    "colName": "log_sb_country",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                }
+            ]
+        }
+    ]
+}
