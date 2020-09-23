@@ -32,9 +32,6 @@
         },
         "performanceMetrics": [
             {
-                "metric": "rocAuc"
-            },
-            {
                 "metric": "accuracy"
             },
             {
