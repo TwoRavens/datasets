@@ -1,0 +1,248 @@
+{
+    "about": {
+        "datasetID": "cm_1990_2020",
+        "datasetSchemaVersion": "4.0.0",
+        "redacted": true,
+        "digest": "0623014966ea9ffed9fed699204c1a99a431cdb8e9850578e36411a0d425457f",
+        "datasetName": "cm_1990_2020"
+    },
+    "dataResources": [
+        {
+            "resID": "learningData",
+            "resPath": "tables/learningData.csv",
+            "resType": "table",
+            "resFormat": {
+                "text/csv": [
+                    "csv"
+                ]
+            },
+            "isCollection": false,
+            "columns": [
+                {
+                    "colIndex": 0,
+                    "colName": "d3mIndex",
+                    "colType": "integer",
+                    "role": [
+                        "index"
+                    ]
+                },
+                {
+                    "colIndex": 1,
+                    "colName": "month_id",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 2,
+                    "colName": "country_id",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 3,
+                    "colName": "country_name",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 4,
+                    "colName": "year",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 5,
+                    "colName": "month",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 6,
+                    "colName": "acled_count_pr",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 7,
+                    "colName": "ged_best_ns",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 8,
+                    "colName": "ged_best_sb",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 9,
+                    "colName": "ln_ged_best_sb",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 10,
+                    "colName": "icgcw_deteriorated",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 11,
+                    "colName": "icgcw_improved",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 12,
+                    "colName": "vdem_e_v2x_polyarchy_5c",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 13,
+                    "colName": "vdem_e_wb_pop",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 14,
+                    "colName": "vdem_e_wbgi_pve",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 15,
+                    "colName": "vdem_e_total_resources_income_pc",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 16,
+                    "colName": "time_since_ged_dummy_sb",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 17,
+                    "colName": "reign_anticipation",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 18,
+                    "colName": "reign_elected",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 19,
+                    "colName": "reign_precip",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 20,
+                    "colName": "reign_prev_conflict",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 21,
+                    "colName": "reign_tenure_months",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 22,
+                    "colName": "fvp_prop_excluded",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 23,
+                    "colName": "fvp_lnpop200",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 24,
+                    "colName": "fvp_lngdp200",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 25,
+                    "colName": "fvp_lngdppercapita200",
+                    "colType": "real",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 26,
+                    "colName": "in_africa",
+                    "colType": "integer",
+                    "role": [
+                        "attribute"
+                    ]
+                },
+                {
+                    "colIndex": 27,
+                    "colName": "yearmonth",
+                    "colType": "string",
+                    "role": [
+                        "attribute"
+                    ]
+                }
+            ]
+        }
+    ]
+}
